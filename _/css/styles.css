@@ -1,0 +1,2176 @@
+@charset "CP850";
+/* BIG TEXT with 
+http://bigtext.org/
+tipo univers */
+/*
+    HTML5 Reset :: style.css
+    ----------------------------------------------------------
+    We have learned much from/been inspired by/taken code where offered from:
+    
+    Eric Meyer                  :: http://ericmeyer.com
+    HTML5 Doctor                :: http://html5doctor.com
+    and the HTML5 Boilerplate   :: http://html5boilerplate.com
+    @murtaugh's HTML5 Reset     :: http://html5reset.org
+    Normalize CSS               :: http://github.com/necolas/normalize.css
+    
+-------------------------------------------------------------------------------*/
+/* Let's default this puppy out
+-------------------------------------------------------------------------------*/
+/* normalize.css 2012-07-07T09:50 UTC */
+/* **************************************************************************
+   HTML5 display definitions
+   ************************************************************************** */
+/*
+ * Corrects `block` display not defined in IE6/7/8/9 & FF3.
+ */
+/* line 39, ../sass/_normals.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE6/7/8/9 & FF3.
+ */
+/* line 49, ../sass/_normals.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS5 devices.
+ */
+/* line 60, ../sass/_normals.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE7/8/9, FF3, S4.
+ * Known issue: no IE6 support.
+ */
+/* line 70, ../sass/_normals.scss */
+[hidden] {
+  display: none;
+}
+
+/* **************************************************************************
+   Base
+   ************************************************************************** */
+/*
+ * 1. Corrects text resizing oddly in IE6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 85, ../sass/_normals.scss */
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+/* line 100, ../sass/_normals.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE6/7.
+ */
+/* line 108, ../sass/_normals.scss */
+body {
+  margin: 0;
+}
+
+/* **************************************************************************
+   Links
+/* ************************************************************************** */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 120, ../sass/_normals.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ * people.opera.com/patrickl/experiments/keyboard/test
+ */
+/* line 130, ../sass/_normals.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* **************************************************************************
+   Typography
+   ************************************************************************** */
+/*
+ * Addresses font sizes and margins set differently in IE6/7.
+ * Addresses font sizes within `section` and `article` in FF4+, Chrome, S5.
+ */
+/* line 143, ../sass/_normals.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 148, ../sass/_normals.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+/* line 153, ../sass/_normals.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 158, ../sass/_normals.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 163, ../sass/_normals.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+/* line 168, ../sass/_normals.scss */
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+/*
+ * Addresses styling not present in IE7/8/9, S5, Chrome.
+ */
+/* line 177, ../sass/_normals.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in FF3+, S4/5, Chrome.
+ */
+/* line 186, ../sass/_normals.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 190, ../sass/_normals.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/*
+ * Addresses styling not present in S5, Chrome.
+ */
+/* line 198, ../sass/_normals.scss */
+dfn {
+  font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE6/7/8/9.
+ */
+/* line 206, ../sass/_normals.scss */
+mark {
+  background: #ff0;
+  color: #333;
+}
+
+/*
+ * Addresses margins set differently in IE6/7.
+ */
+/* line 216, ../sass/_normals.scss */
+p,
+pre {
+  margin: 1em 0;
+}
+
+/*
+ * Corrects font family set oddly in IE6, S4/5, Chrome.
+ * en.wikipedia.org/wiki/User:Davidgothberg/Test59
+ */
+/* line 228, ../sass/_normals.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 238, ../sass/_normals.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/*
+ * Addresses CSS quotes not supported in IE6/7.
+ */
+/* line 248, ../sass/_normals.scss */
+q {
+  quotes: none;
+}
+
+/*
+/** Addresses `quotes` property not supported in S4.
+/* Evaluar si eliminamos esta regla*/
+/**/
+/* line 258, ../sass/_normals.scss */
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 263, ../sass/_normals.scss */
+small {
+  font-size: 75%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ * gist.github.com/413930
+ */
+/* line 273, ../sass/_normals.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 280, ../sass/_normals.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 284, ../sass/_normals.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* **************************************************************************
+   Lists
+   ************************************************************************** */
+/*
+ * Addresses margins set differently in IE6/7.
+ */
+/* line 299, ../sass/_normals.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+/* line 303, ../sass/_normals.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/*
+ * Addresses paddings set differently in IE6/7.
+ */
+/* line 313, ../sass/_normals.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE7.
+ */
+/* line 322, ../sass/_normals.scss */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* **************************************************************************
+   Embedded content
+   ************************************************************************** */
+/*
+ * 1. Removes border when inside `a` element in IE6/7/8/9, FF3.
+ * 2. Improves image quality when scaled in IE7.
+ *    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
+ */
+/* line 337, ../sass/_normals.scss */
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */
+}
+
+/*
+ * Corrects overflow displayed oddly in IE9.
+ */
+/* line 346, ../sass/_normals.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* **************************************************************************
+   Figures
+   ************************************************************************** */
+/*
+ * Addresses margin not present in IE6/7/8/9, S5, O11.
+ */
+/* line 358, ../sass/_normals.scss */
+figure {
+  margin: 0;
+}
+
+/* **************************************************************************
+   Forms
+   ************************************************************************** */
+/*
+ * Corrects margin displayed oddly in IE6/7.
+ */
+/* line 370, ../sass/_normals.scss */
+form {
+  margin: 0;
+}
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 378, ../sass/_normals.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE6/7/8/9.
+ * 2. Corrects text not wrapping in FF3.
+ * 3. Corrects alignment displayed oddly in IE6/7.
+ */
+/* line 390, ../sass/_normals.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  white-space: normal;
+  /* 2 */
+  *margin-left: -7px;
+  /* 3 */
+}
+
+/*
+ * 1. Corrects font size not being inherited in all browsers.
+ * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome.
+ * 3. Improves appearance and consistency in all browsers.
+ */
+/* line 406, ../sass/_normals.scss */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  vertical-align: baseline;
+  /* 3 */
+  *vertical-align: middle;
+  /* 3 */
+}
+
+/*
+ * Addresses FF3/4 setting `line-height` on `input` using `!important` in the
+ * UA stylesheet.
+ */
+/* line 419, ../sass/_normals.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Removes inner spacing in IE7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE6.
+ */
+/* line 436, ../sass/_normals.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+  *overflow: visible;
+  /* 4 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 447, ../sass/_normals.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to content-box in IE8/9.
+ * 2. Removes excess padding in IE8/9.
+ * 3. Removes excess padding in IE7.
+ *    Known issue: excess padding remains in IE6.
+ */
+/* line 459, ../sass/_normals.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *height: 13px;
+  /* 3 */
+  *width: 13px;
+  /* 3 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in S5, Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in S5, Chrome (include `-moz`
+ *    to future-proof).
+ */
+/* line 472, ../sass/_normals.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in S5, Chrome on OS X.
+ */
+/* line 484, ../sass/_normals.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in FF3+.
+ */
+/* line 493, ../sass/_normals.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE6/7/8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 503, ../sass/_normals.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* **************************************************************************
+   Tables
+/* ************************************************************************** */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 516, ../sass/_normals.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* **************************************************************************
+/*     IE
+/* ************************************************************************** */
+/* scale images in IE7 more attractively */
+/* line 525, ../sass/_normals.scss */
+.ie7 img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* prevent BG image flicker upon hover */
+/* line 528, ../sass/_normals.scss */
+.ie7 html {
+  filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+
+/*************************************************************
+/*   COSAS PRÁCTICAS /  PRACTICAL THINGS 
+/**************************************************************/
+/* force a vertical scrollbar to prevent a jumpy page */
+/* line 535, ../sass/_normals.scss */
+html {
+  overflow-y: scroll;
+}
+
+/* let's clear some floats */
+/* line 538, ../sass/_normals.scss */
+.clearfix:before, .clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 539, ../sass/_normals.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 540, ../sass/_normals.scss */
+.clearfix {
+  zoom: 1;
+}
+
+/* other non-semantic helper classes 
+/* Otras clases de ayuda no-semántica (OHHHH el horroooor!)*/
+/* line 545, ../sass/_normals.scss */
+.limpia, .clean {
+  clear: both;
+}
+
+/* line 546, ../sass/_normals.scss */
+.flotaIzquierda {
+  float: left;
+}
+
+/* line 547, ../sass/_normals.scss */
+.flotaDerecha {
+  float: right;
+}
+
+/* line 548, ../sass/_normals.scss */
+.aIzquierda {
+  text-align: left;
+}
+
+/* line 549, ../sass/_normals.scss */
+.aDerecha {
+  text-align: right;
+}
+
+/* line 550, ../sass/_normals.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* Ok, this is where the fun starts.
+/* -------------------------------------------------------------------------------*/
+/* new Linux- and Windows-friendly sans-serif font stack: http://mky.be/fontstack 
+/* 16px is great, both on mobile and desktop, jut leave it at that.
+/* Puedes agregar tu stack ideal de preferencia al principio.
+/* con 16px sigue siendo legible el texto en una pantalla pequeña con un poco de zoom menor a 100%*/
+/* line 559, ../sass/_normals.scss */
+body {
+  font: 16px Helmet, Freesans, sans-serif;
+}
+
+/* line 560, ../sass/_normals.scss */
+div, span, h1, h2, h3, h4, h5, h6, p, blockquote, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, b, i, dl, dt, dd, ol, ul, li {
+  line-height: 1.25em;
+}
+
+/* este margen es bastante grande, pero da aire
+/* this is pretty much a lot of margin, but it gives good default space*/
+/* line 563, ../sass/_normals.scss */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0.5em 0;
+}
+
+/* h1{font-size:2em;}
+h2{font-size:1.5em;}
+h3{font-size:1.17em;}
+h4{font-size:1em;}
+h5{font-size:0.83em;}
+h6{font-size:0.67em;} */
+/* using local fonts? make sure to read up on Paul Irish's 
+/* Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */
+/* we like off-black for text */
+/* line 574, ../sass/_normals.scss */
+body, select, input, textarea {
+  color: #333;
+}
+
+/* line 576, ../sass/_normals.scss */
+a {
+  color: #03f;
+}
+
+/* line 577, ../sass/_normals.scss */
+a:hover {
+  color: #69f;
+}
+
+/* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
+/* line 580, ../sass/_normals.scss */
+::-moz-selection {
+  background: #fcd700;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 581, ../sass/_normals.scss */
+::selection {
+  background: #fcd700;
+  color: #fff;
+  text-shadow: none;
+}
+
+/*  j.mp/webkit-tap-highlight-color */
+/* line 584, ../sass/_normals.scss */
+a:link {
+  -webkit-tap-highlight-color: #fcd700;
+}
+
+/* line 586, ../sass/_normals.scss */
+ins {
+  background-color: #fcd700;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 587, ../sass/_normals.scss */
+mark {
+  background-color: #fcd700;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* * Import this file using the following HTML or equivalent:
+/* * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* =============================================================================
+/*  Print Styles
+/* ========================================================================== */
+@media print {
+  /* line 598, ../sass/_normals.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+  /* Black prints faster: h5bp.com/s */
+  /* line 606, ../sass/_normals.scss */
+  a, a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 607, ../sass/_normals.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 608, ../sass/_normals.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 609, ../sass/_normals.scss */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+
+  /* Don't show links for images, or javascript/internal links */
+  /* line 610, ../sass/_normals.scss */
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 611, ../sass/_normals.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* h5bp.com/t */
+  /* line 612, ../sass/_normals.scss */
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  /* line 613, ../sass/_normals.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 615, ../sass/_normals.scss */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 616, ../sass/_normals.scss */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on November 12, 2012 01:42:24 PM America/New_York */
+@font-face {
+  font-family: 'BitterRegular';
+  src: url("Bitter-Regular-webfont.eot");
+  src: url("Bitter-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("Bitter-Regular-webfont.svg#BitterRegular") format("svg"), url("Bitter-Regular-webfont.woff") format("woff"), url("Bitter-Regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CartoGothicStdBook';
+  src: url("CartoGothicStd-Book-webfont.eot");
+  src: url("CartoGothicStd-Book-webfont.eot?#iefix") format("embedded-opentype"), url("CartoGothicStd-Book-webfont.woff") format("woff"), url("CartoGothicStd-Book-webfont.ttf") format("truetype"), url("CartoGothicStd-Book-webfont.svg#CartoGothicStdBook") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CartoGothicStdBold';
+  src: url("CartoGothicStd-Bold-webfont.eot");
+  src: url("CartoGothicStd-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("CartoGothicStd-Bold-webfont.svg#CartoGothicStdBold") format("svg"), url("CartoGothicStd-Bold-webfont.woff") format("woff"), url("CartoGothicStd-Bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("icomoon.eot");
+  src: url("icomoon.eot?#iefix") format("embedded-opentype"), url("icomoon.svg#icomoon") format("svg"), url("icomoon.woff") format("woff"), url("icomoon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 2, ../sass/_forms.scss */
+form ul {
+  padding-left: 0;
+}
+/* line 4, ../sass/_forms.scss */
+form ul li {
+  display: block;
+  width: auto;
+  min-height: 36px;
+  margin-left: 0;
+  margin-top: 34px;
+  background-color: #e0dfdf;
+  position: relative;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 0.875em;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  -moz-transition: background-color 0.4s ease-in-out;
+  -o-transition: background-color 0.4s ease-in-out;
+  -ms-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+/* line 21, ../sass/_forms.scss */
+form ul li.transparente {
+  background: none;
+  border: none;
+}
+/* line 25, ../sass/_forms.scss */
+form ul li.form-focus {
+  background-color: #00a94f;
+}
+/* line 28, ../sass/_forms.scss */
+form ul li.error {
+  background-color: #dc4028;
+}
+/* line 30, ../sass/_forms.scss */
+form ul li.error.form-focus {
+  background-color: #910000;
+}
+/* line 33, ../sass/_forms.scss */
+form ul li.error p.error {
+  color: #FFF;
+}
+/* line 38, ../sass/_forms.scss */
+form ul li label,
+form ul li p.tipoLabel {
+  line-height: 36px;
+  margin-left: 13px;
+}
+/* line 45, ../sass/_forms.scss */
+form ul li > label,
+form ul li label, form ul li > fieldset > span.legend,
+form ul li p.tipoLabel {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  min-width: 100px;
+  position: absolute;
+  top: -2em;
+  left: 12px;
+}
+/* line 54, ../sass/_forms.scss */
+form ul li.dentro > label, form ul li.dentro label, form ul li.dentro p.tipoLabel {
+  position: static;
+}
+/* line 57, ../sass/_forms.scss */
+form ul li .regular ul li.dentro {
+  margin-top: 0;
+}
+/* line 60, ../sass/_forms.scss */
+form p.error {
+  color: #910000;
+  margin: 4px 12px;
+}
+
+/* line 65, ../sass/_forms.scss */
+.notificacion {
+  padding: 1em;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+
+/* line 73, ../sass/_forms.scss */
+.ie7 .regular ul li > label,
+.ie7 .regular ul li > fieldset > span.legend,
+.ie7 .regular ul li p.tipoLabel {
+  /*zoom: 1;
+  display: inline;*/
+  float: left;
+}
+
+/* line 78, ../sass/_forms.scss */
+.ie7 .regular ul li .regular label, .regular ul li .regular label {
+  min-width: 0;
+  float: none;
+}
+
+/* line 82, ../sass/_forms.scss */
+.regular ul li.ancha {
+  width: auto;
+  padding-right: 14px;
+}
+
+/* line 86, ../sass/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+}
+
+/* line 89, ../sass/_forms.scss */
+input[type="text"], input[type="tel"], input[type="email"], input[type="search"], input[type="telephone"], input[type="url"], input[type="password"], ul li div.tipoInput, #nuevoColor input[type="number"] {
+  line-height: 28px;
+  height: 28px;
+  width: 72%;
+  padding-left: 1%;
+  border: solid 1px #ADAFB1;
+  background-color: #FFF;
+  font-size: 14px;
+  color: #1A1A1A;
+  margin: 5px 1.25% 5px 25%;
+}
+
+/* line 100, ../sass/_forms.scss */
+textarea {
+  min-width: 96%;
+  min-height: 150px;
+  padding-left: 4px;
+  margin: 5px 0 5px 1.25%;
+  border: none;
+  background-color: #FFF;
+  font-size: 18px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 112, ../sass/_forms.scss */
+.formularioResponsive select {
+  margin: 5px 5px 5px 120px;
+  width: auto;
+  line-height: 28px;
+  height: 28px;
+}
+
+/* line 118, ../sass/_forms.scss */
+textarea.descipcion {
+  min-height: 192px;
+}
+
+/* line 122, ../sass/_forms.scss */
+button, .boton {
+  height: 32px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFF;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0 24px;
+  background: #4d4d4d;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRkNGQ0ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzODM4MzgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #4d4d4d 0%, #383838 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4d4d4d), color-stop(100%, #383838));
+  background: -webkit-linear-gradient(top, #4d4d4d 0%, #383838 100%);
+  background: -o-linear-gradient(top, #4d4d4d 0%, #383838 100%);
+  background: -ms-linear-gradient(top, #4d4d4d 0%, #383838 100%);
+  background: linear-gradient(top, #4d4d4d 0%, #383838 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d4d4d', endColorstr='#383838', GradientType=0 );
+  text-shadow: 1px 1px 1px black;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* line 146, ../sass/_forms.scss */
+.boton.cito {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+/* line 150, ../sass/_forms.scss */
+button:hover, .boton:hover {
+  background: #3e3e3e;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNlM2UzZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyMTIxMjEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #3e3e3e 0%, #212121 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3e3e3e), color-stop(100%, #212121));
+  background: -webkit-linear-gradient(top, #3e3e3e 0%, #212121 100%);
+  background: -o-linear-gradient(top, #3e3e3e 0%, #212121 100%);
+  background: -ms-linear-gradient(top, #3e3e3e 0%, #212121 100%);
+  background: linear-gradient(top, #3e3e3e 0%, #212121 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e3e3e', endColorstr='#212121', GradientType=0 );
+}
+
+/* line 161, ../sass/_forms.scss */
+button:active, .boton:active, button:focus, .boton:focus {
+  background: #383838;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM4MzgzOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0ZDRkNGQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #383838 0%, #4d4d4d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #383838), color-stop(100%, #4d4d4d));
+  background: -webkit-linear-gradient(top, #383838 0%, #4d4d4d 100%);
+  background: -o-linear-gradient(top, #383838 0%, #4d4d4d 100%);
+  background: -ms-linear-gradient(top, #383838 0%, #4d4d4d 100%);
+  background: linear-gradient(top, #383838 0%, #4d4d4d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#383838', endColorstr='#4d4d4d', GradientType=0 );
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+/* line 175, ../sass/_forms.scss */
+button.naranja {
+  font-size: 16px;
+  font-weight: bold;
+  min-width: 220px;
+  line-height: 29px;
+  text-align: center;
+  padding: 0;
+  color: #FFF;
+  border: none;
+  background: #22408B;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: -1px -1px 2px 1px rgba(0, 0, 0, 0.15) inset, 1px 1px 2px 1px rgba(255, 255, 255, 0.1) inset, 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.2);
+  margin-left: 11px;
+}
+
+/* line 192, ../sass/_forms.scss */
+button.naranja:hover {
+  background: #0066FF;
+  background: -moz-linear-gradient(top, #0066ff 0%, #22408b 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0066ff), color-stop(100%, #22408b));
+  background: -webkit-linear-gradient(top, #0066ff 0%, #22408b 100%);
+  background: -o-linear-gradient(top, #0066ff 0%, #22408b 100%);
+  background: -ms-linear-gradient(top, #0066ff 0%, #22408b 100%);
+  background: linear-gradient(top, #0066ff 0%, #22408b 100%);
+}
+
+/* line 201, ../sass/_forms.scss */
+button.naranja:active, button.naranja:focus {
+  background: #6c6c6c;
+}
+
+/* line 30, ../sass/styles.scss */
+body {
+  font-family: Calibri, Helmet, Freesans, sans-serif;
+  color: #404041;
+}
+
+/* Working with only this class is possible to build a responsive layout
+/* sólo con esta clase es posible hecer que el sitio completo responda al ancho de pantalla*/
+/* line 34, ../sass/styles.scss */
+.wrapper {
+  width: auto;
+  margin: 0;
+}
+
+/* line 39, ../sass/styles.scss */
+.amictus {
+  border-top: 9px solid #00a94f;
+}
+
+/* line 42, ../sass/styles.scss */
+#logoTop {
+  width: 159px;
+  margin: 2px auto;
+}
+
+/* line 46, ../sass/styles.scss */
+hr {
+  background: none;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* line 52, ../sass/styles.scss */
+header nav {
+  font-family: "CartoGothicStdBold", Helmet, Freesans, sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  color: #58595B;
+  margin: 2.125em 0 0.5em 0;
+  border-top: 1px solid #CCC;
+}
+/* line 59, ../sass/styles.scss */
+header nav a {
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+/* line 62, ../sass/styles.scss */
+header nav a:link, header nav a:visited {
+  color: #58595B;
+}
+/* line 65, ../sass/styles.scss */
+header nav a:hover, header nav a:active, header nav a:focus {
+  color: #00a94f;
+}
+/* line 69, ../sass/styles.scss */
+header nav ul {
+  margin: -1.5em 0 0 0;
+  text-align: center;
+  padding: 0;
+}
+/* line 74, ../sass/styles.scss */
+header nav li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  text-transform: uppercase;
+  margin: 0.1875em 0.25em;
+}
+
+/* line 81, ../sass/styles.scss */
+.ico-hoja {
+  display: none;
+}
+
+/* line 82, ../sass/styles.scss */
+h1 {
+  font-size: 1.875em;
+}
+
+/* line 85, ../sass/styles.scss */
+.slogan {
+  font-family: "CartoGothicStdBold", Helmet, Freesans, sans-serif;
+  font-size: 1.125em;
+  background: #404041;
+  color: #e6e7e8;
+  padding: 0 1em;
+}
+/* line 91, ../sass/styles.scss */
+.slogan h1 {
+  text-transform: uppercase;
+  color: #c0d456;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 1.667em;
+}
+/* line 98, ../sass/styles.scss */
+.slogan p {
+  margin-bottom: 1em;
+  font-family: "CartoGothicStdBook", Helmet, Freesans, sans-serif;
+  font-weight: normal;
+}
+
+/* line 104, ../sass/styles.scss */
+.boton {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  min-width: 3em;
+  height: 1.25em;
+  line-height: 1.25em;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  color: #FFF;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  background: #00a94f;
+  padding: 0 0.5em;
+}
+/* line 118, ../sass/styles.scss */
+.boton:link, .boton:visited {
+  color: #FFF;
+  background: #00a94f;
+}
+/* line 122, ../sass/styles.scss */
+.boton:hover, .boton:active, .boton:focus {
+  color: #FFF;
+  background-color: #404041;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #58595b), color-stop(100%, #404041));
+  background-image: -webkit-linear-gradient(#58595b, #404041);
+  background-image: -moz-linear-gradient(#58595b, #404041);
+  background-image: -o-linear-gradient(#58595b, #404041);
+  background-image: linear-gradient(#58595b, #404041);
+}
+
+/* line 128, ../sass/styles.scss */
+.vermas {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  display: block;
+  min-width: 3em;
+  height: 1.25em;
+  line-height: 1.25em;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  color: #FFF;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  background-color: #404041;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #58595b), color-stop(100%, #404041));
+  background-image: -webkit-linear-gradient(#58595b, #404041);
+  background-image: -moz-linear-gradient(#58595b, #404041);
+  background-image: -o-linear-gradient(#58595b, #404041);
+  background-image: linear-gradient(#58595b, #404041);
+}
+
+/* line 145, ../sass/styles.scss */
+.categoria {
+  border-bottom: 1em solid #404041;
+  border-top: 1px solid transparent;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  background-color: #FFF;
+}
+/* line 152, ../sass/styles.scss */
+.categoria a {
+  display: block;
+  text-decoration: none;
+  color: #404041;
+  padding: 0.5em 1em;
+}
+/* line 158, ../sass/styles.scss */
+.categoria a:link h1, .categoria a:visited h1 {
+  border-bottom: 1px solid transparent;
+}
+/* line 163, ../sass/styles.scss */
+.categoria a:hover p.vermas, .categoria a:active p.vermas, .categoria a:focus p.vermas {
+  color: #404041;
+  text-shadow: none;
+  background: #FFF;
+}
+/* line 172, ../sass/styles.scss */
+.categoria a:hover h1, .categoria a:active h1, .categoria a:focus h1 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+/* line 177, ../sass/styles.scss */
+.categoria a:active p.vermas {
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  text-shadow: -1px -1px 2px rgba(255, 255, 255, 0.7);
+  color: #000;
+}
+/* line 184, ../sass/styles.scss */
+.categoria h1 {
+  font-family: "BitterRegular", Georgia, serif;
+  font-size: 1.5em;
+  margin-bottom: 0;
+  line-height: 1em;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-transition: border-bottom 0.3s ease-in-out;
+  -moz-transition: border-bottom 0.3s ease-in-out;
+  -o-transition: border-bottom 0.3s ease-in-out;
+  transition: border-bottom 0.3s ease-in-out;
+}
+/* line 192, ../sass/styles.scss */
+.categoria p {
+  line-height: 1.14em;
+  font-size: 0.938em;
+}
+/* line 195, ../sass/styles.scss */
+.categoria p.vermas {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  display: block;
+  width: 3em;
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  color: #FFF;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  background-color: #404041;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #58595b), color-stop(100%, #404041));
+  background-image: -webkit-linear-gradient(#58595b, #404041);
+  background-image: -moz-linear-gradient(#58595b, #404041);
+  background-image: -o-linear-gradient(#58595b, #404041);
+  background-image: linear-gradient(#58595b, #404041);
+}
+/* line 209, ../sass/styles.scss */
+.categoria img {
+  max-width: 100%;
+  display: block;
+}
+/* line 214, ../sass/styles.scss */
+.categoria.porotos p.vermas, .categoria.arvejas p.vermas, .categoria.verde p.vermas, .categoria.amarillo p.vermas {
+  color: #404041;
+  text-shadow: none;
+  background: #FFF;
+}
+/* line 221, ../sass/styles.scss */
+.categoria.porotos a:hover p.vermas, .categoria.porotos a:active p.vermas, .categoria.porotos a:focus p.vermas, .categoria.arvejas a:hover p.vermas, .categoria.arvejas a:active p.vermas, .categoria.arvejas a:focus p.vermas, .categoria.verde a:hover p.vermas, .categoria.verde a:active p.vermas, .categoria.verde a:focus p.vermas, .categoria.amarillo a:hover p.vermas, .categoria.amarillo a:active p.vermas, .categoria.amarillo a:focus p.vermas {
+  color: #FFF;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  background-color: #404041;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #58595b), color-stop(100%, #404041));
+  background-image: -webkit-linear-gradient(#58595b, #404041);
+  background-image: -moz-linear-gradient(#58595b, #404041);
+  background-image: -o-linear-gradient(#58595b, #404041);
+  background-image: linear-gradient(#58595b, #404041);
+}
+
+/* line 231, ../sass/styles.scss */
+figure.categoria {
+  border: none;
+}
+
+/* line 234, ../sass/styles.scss */
+.porotos {
+  background-color: #ffe000;
+}
+
+/* line 237, ../sass/styles.scss */
+.arvejas {
+  background-color: #00a94f;
+}
+/* line 239, ../sass/styles.scss */
+.arvejas a {
+  color: #FFF;
+}
+
+/*
+
+                                                                                                              
+  ,ad8888ba,        db   888888888888 88888888888 ,ad8888ba,    ,ad8888ba,   88888888ba  88        db         
+ d8"'    `"8b      d88b       88      88         d8"'    `"8b  d8"'    `"8b  88      "8b 88       d88b        
+d8'               d8'`8b      88      88        d8'           d8'        `8b 88      ,8P 88      d8'`8b       
+88               d8'  `8b     88      88aaaaa   88            88          88 88aaaaaa8P' 88     d8'  `8b      
+88              d8YaaaaY8b    88      88"""""   88      88888 88          88 88""""88'   88    d8YaaaaY8b     
+Y8,            d8""""""""8b   88      88        Y8,        88 Y8,        ,8P 88    `8b   88   d8""""""""8b    
+ Y8a.    .a8P d8'        `8b  88      88         Y8a.    .a88  Y8a.    .a8P  88     `8b  88  d8'        `8b   
+  `"Y8888Y"' d8'          `8b 88      88888888888 `"Y88888P"    `"Y8888Y"'   88      `8b 88 d8'          `8b  
+                                                                                                              
+
+*/
+/* line 258, ../sass/styles.scss */
+.caluga {
+  border-bottom: 1em solid #404041;
+  border-top: 1px solid transparent;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  background-color: white;
+}
+/* line 265, ../sass/styles.scss */
+.caluga .tipoA {
+  padding: 0.5em 1em;
+}
+/* line 268, ../sass/styles.scss */
+.caluga h1 {
+  font-family: "BitterRegular", Georgia, serif;
+  font-size: 1.5em;
+  margin-bottom: 1px;
+  line-height: 1em;
+}
+
+/* line 276, ../sass/styles.scss */
+.pagina-categoria article {
+  background: #FFF;
+  position: relative;
+  z-index: 4;
+}
+/* line 280, ../sass/styles.scss */
+.pagina-categoria article header {
+  overflow: hidden;
+}
+/* line 283, ../sass/styles.scss */
+.pagina-categoria article footer {
+  background: #F1F1F1;
+  border-top: 1px solid #F1F1F1;
+  padding: 0 0 1em 3px;
+}
+/* line 287, ../sass/styles.scss */
+.pagina-categoria article footer h2 {
+  color: #404041;
+  margin: 0.5em;
+}
+/* line 293, ../sass/styles.scss */
+.pagina-categoria h2 {
+  font-size: 1.5em;
+  font-family: "BitterRegular", Georgia, serif;
+  text-align: left;
+}
+
+/* line 299, ../sass/styles.scss */
+.muestraCategoria {
+  overflow: hidden;
+}
+/* line 301, ../sass/styles.scss */
+.muestraCategoria img {
+  display: block;
+}
+
+/* line 305, ../sass/styles.scss */
+.listaProductos {
+  padding: 0;
+  overflow: hidden;
+}
+/* line 308, ../sass/styles.scss */
+.listaProductos li {
+  list-style-type: none;
+  border: 1px solid #e6e7e8;
+  margin: 0.25em 0.25% 0.25em 0.25%;
+  min-height: 250px;
+  width: 48%;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+/* line 318, ../sass/styles.scss */
+.listaProductos li a {
+  display: block;
+  text-decoration: none;
+  padding-left: 0.5em;
+}
+/* line 322, ../sass/styles.scss */
+.listaProductos li a:link, .listaProductos li a:visited {
+  color: #58595b;
+}
+/* line 324, ../sass/styles.scss */
+.listaProductos li a:link h3, .listaProductos li a:visited h3 {
+  color: #404041;
+}
+/* line 327, ../sass/styles.scss */
+.listaProductos li a:link p.vermas, .listaProductos li a:visited p.vermas {
+  background: #00a94f;
+}
+/* line 331, ../sass/styles.scss */
+.listaProductos li a:hover, .listaProductos li a:active, .listaProductos li a:focus {
+  color: #00a94f;
+}
+/* line 333, ../sass/styles.scss */
+.listaProductos li a:hover h3, .listaProductos li a:active h3, .listaProductos li a:focus h3 {
+  color: #00a94f;
+}
+/* line 336, ../sass/styles.scss */
+.listaProductos li a:hover p.vermas, .listaProductos li a:active p.vermas, .listaProductos li a:focus p.vermas {
+  color: #404041;
+  text-shadow: none;
+  background: #FFF;
+}
+/* line 344, ../sass/styles.scss */
+.listaProductos h3 {
+  font-size: 1.125em;
+  font-family: "BitterRegular", Georgia, serif;
+  text-align: left;
+  margin: 0.75em 0 0 0;
+}
+/* line 350, ../sass/styles.scss */
+.listaProductos p {
+  text-align: left;
+  margin: 0 0 0.5em 0;
+}
+/* line 354, ../sass/styles.scss */
+.listaProductos .vermas {
+  bottom: -2px;
+  right: 4px;
+  top: auto;
+  padding: 0 0.25em;
+  font-size: 0.75em;
+}
+
+/* line 365, ../sass/styles.scss */
+.otrosProductos li {
+  background: #FFF;
+}
+/* line 368, ../sass/styles.scss */
+.otrosProductos li a:link, .otrosProductos li a:visited {
+  text-decoration: none;
+}
+/* line 370, ../sass/styles.scss */
+.otrosProductos li a:link p.vermas, .otrosProductos li a:visited p.vermas {
+  background: #8bc53f;
+}
+/* line 375, ../sass/styles.scss */
+.otrosProductos li a:hover p.vermas, .otrosProductos li a:active p.vermas, .otrosProductos li a:focus p.vermas {
+  color: #FFF;
+  background: #dc4028;
+}
+
+/*
+
+d8888b. d8888b.  .d88b.  d8888b. db    db  .o88b. d888888b  .d88b.  .d8888. 
+88  `8D 88  `8D .8P  Y8. 88  `8D 88    88 d8P  Y8 `~~88~~' .8P  Y8. 88'  YP 
+88oodD' 88oobY' 88    88 88   88 88    88 8P         88    88    88 `8bo.   
+88~~~   88`8b   88    88 88   88 88    88 8b         88    88    88   `Y8b. 
+88      88 `88. `8b  d8' 88  .8D 88b  d88 Y8b  d8    88    `8b  d8' db   8D 
+88      88   YD  `Y88P'  Y8888D' ~Y8888P'  `Y88P'    YP     `Y88P'  `8888Y' 
+
+*/
+/* line 394, ../sass/styles.scss */
+.titulo {
+  text-align: center;
+  display: block;
+  background-color: #404041;
+  margin: 0;
+  padding: 0.25em;
+  color: #c0d456;
+}
+
+/* line 402, ../sass/styles.scss */
+.amarillo {
+  background-color: #ffe000;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.7);
+}
+
+/* line 406, ../sass/styles.scss */
+.verde {
+  background-color: #00a94f;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  color: #FFF;
+}
+/* line 410, ../sass/styles.scss */
+.verde a {
+  color: #FFF;
+}
+
+/* line 414, ../sass/styles.scss */
+.rojo {
+  background-color: #dc4028;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  color: #FFF;
+}
+/* line 418, ../sass/styles.scss */
+.rojo a {
+  color: #FFF;
+}
+
+/* line 422, ../sass/styles.scss */
+.grisClaro {
+  background-color: #f8f7f2;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.7);
+}
+
+/* line 426, ../sass/styles.scss */
+.productos {
+  background-color: #404041;
+  font-family: "CartoGothicStdBold", Helmet, Freesans, sans-serif;
+  font-weight: normal;
+  padding: 0.5em 1em;
+  font-size: 1.125em;
+}
+/* line 432, ../sass/styles.scss */
+.productos h1 {
+  color: #c0d456;
+  margin-top: 0;
+  font-size: 1.667em;
+}
+/* line 437, ../sass/styles.scss */
+.productos ul {
+  padding: 0;
+}
+/* line 441, ../sass/styles.scss */
+.productos ul li ul {
+  font-size: 0.889em;
+  font-family: Calibri, Helmet, Freesans, sans-serif;
+  margin-top: 0;
+}
+/* line 447, ../sass/styles.scss */
+.productos ul li ul a:link, .productos ul li ul a:visited {
+  color: #c5c5c5;
+}
+/* line 450, ../sass/styles.scss */
+.productos ul li ul a:hover, .productos ul li ul a:active, .productos ul li ul a:focus {
+  color: #EEE;
+}
+/* line 454, ../sass/styles.scss */
+.productos ul li ul li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  border-left: 1px solid #777;
+  padding-left: 4px;
+}
+/* line 462, ../sass/styles.scss */
+.productos a {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+}
+/* line 464, ../sass/styles.scss */
+.productos a:link, .productos a:visited {
+  text-decoration: none;
+  color: #e5e5e5;
+}
+/* line 468, ../sass/styles.scss */
+.productos a:hover, .productos a:active, .productos a:focus {
+  text-decoration: underline;
+  color: #FFF;
+}
+
+/* line 476, ../sass/styles.scss */
+.pagina-ficha article, .pagina-contenido article {
+  background: #FFF;
+}
+/* line 478, ../sass/styles.scss */
+.pagina-ficha article header, .pagina-contenido article header {
+  overflow: hidden;
+}
+/* line 481, ../sass/styles.scss */
+.pagina-ficha article h2, .pagina-contenido article h2 {
+  font-size: 1.5em;
+  margin: 1em 1.511% 0.5em 3.022%;
+  font-family: "BitterRegular", Georgia, serif;
+}
+/* line 486, ../sass/styles.scss */
+.pagina-ficha article h3, .pagina-contenido article h3 {
+  line-height: 1em;
+  margin: 1em 1.511% 0.125em 3.022%;
+  color: #00a94f;
+}
+/* line 492, ../sass/styles.scss */
+.pagina-ficha article p, .pagina-contenido article p {
+  margin-top: 0.125em;
+  margin-left: 4.133%;
+}
+/* line 495, ../sass/styles.scss */
+.pagina-ficha article p.bajada, .pagina-contenido article p.bajada {
+  font-family: "BitterRegular", Georgia, serif;
+  color: #8bc53f;
+  text-transform: uppercase;
+}
+/* line 501, ../sass/styles.scss */
+.pagina-ficha article figure, .pagina-contenido article figure {
+  display: block;
+  border: 1px solid #e6e7e8;
+  padding-bottom: 1em;
+  text-align: center;
+  position: relative;
+}
+/* line 507, ../sass/styles.scss */
+.pagina-ficha article figure .vermas, .pagina-contenido article figure .vermas {
+  top: auto;
+  bottom: -11px;
+  right: -3px;
+  padding: 0 0.5em;
+  background: #00a94f;
+  color: #FFF;
+}
+/* line 516, ../sass/styles.scss */
+.pagina-ficha article figcaption, .pagina-contenido article figcaption {
+  margin: 0.125em 0.25em;
+  line-height: 1em;
+}
+
+/* line 523, ../sass/styles.scss */
+.pagina-ancha article {
+  background: #FFF;
+}
+
+/* line 527, ../sass/styles.scss */
+table {
+  margin-left: 3.022%;
+  border: 1px solid #e6e7e8;
+  width: 95.467%;
+}
+
+/* line 532, ../sass/styles.scss */
+td, th {
+  padding: 0.25em 0.5em;
+  border-top: 1px solid #e6e7e8;
+  border-bottom: 1px solid #e6e7e8;
+}
+
+/* line 537, ../sass/styles.scss */
+tr:nth-child(even) td {
+  background: #F8F7F2;
+}
+
+/* line 540, ../sass/styles.scss */
+tr.par td {
+  background: #F8F7F2;
+}
+
+/* line 544, ../sass/styles.scss */
+.columna {
+  padding: 0 2% 0 2%;
+}
+
+/*
+
+d88888b  .d88b.   .d88b.  d888888b d88888b d8888b. 
+88'     .8P  Y8. .8P  Y8. `~~88~~' 88'     88  `8D 
+88ooo   88    88 88    88    88    88ooooo 88oobY' 
+88~~~   88    88 88    88    88    88~~~~~ 88`8b   
+88      `8b  d8' `8b  d8'    88    88.     88 `88. 
+YP       `Y88P'   `Y88P'     YP    Y88888P 88   YD 
+
+*/
+/* line 558, ../sass/styles.scss */
+footer {
+  background-color: #f8f7f2;
+  padding: 1em 0.75em;
+}
+/* line 561, ../sass/styles.scss */
+footer .grupo {
+  margin-bottom: 2em;
+}
+/* line 564, ../sass/styles.scss */
+footer .logo {
+  margin-left: 4.951%;
+  margin-top: 1.125em;
+}
+/* line 568, ../sass/styles.scss */
+footer h2 {
+  font-family: "CartoGothicStdBook", Helmet, Freesans, sans-serif;
+  font-weight: normal;
+  color: #00a94f;
+  font-size: 1.125em;
+  margin-bottom: 0;
+}
+/* line 576, ../sass/styles.scss */
+footer a:link, footer a:visited {
+  text-decoration: underline;
+  color: #404041;
+}
+/* line 580, ../sass/styles.scss */
+footer a:hover, footer a:active, footer a:focus {
+  text-decoration: none;
+  color: #00a94f;
+}
+/* line 585, ../sass/styles.scss */
+footer p.correo {
+  margin-top: 0;
+}
+
+/* line 589, ../sass/styles.scss */
+.postal-code {
+  border-bottom: 1px dotted #58595b;
+  position: relative;
+  cursor: default;
+}
+/* line 593, ../sass/styles.scss */
+.postal-code:before {
+  content: "[?]";
+  font-size: 0.865em;
+  position: absolute;
+  left: -1.125em;
+  color: #00a94f;
+}
+
+/* line 601, ../sass/styles.scss */
+.verEnMaps {
+  margin-top: -0.5em;
+}
+/* line 603, ../sass/styles.scss */
+.verEnMaps a {
+  line-height: 1em;
+}
+/* line 605, ../sass/styles.scss */
+.verEnMaps a:link, .verEnMaps a:visited {
+  text-decoration: none;
+  color: #00a94f;
+}
+/* line 609, ../sass/styles.scss */
+.verEnMaps a:hover, .verEnMaps a:active, .verEnMaps a:focus {
+  text-decoration: underline;
+  color: #404041;
+}
+
+/* line 616, ../sass/styles.scss */
+.telefono span {
+  color: #00a94f;
+}
+/* line 617, ../sass/styles.scss */
+.telefono a {
+  font-weight: bold;
+  font-size: 1.125em;
+  white-space: nowrap;
+}
+/* line 621, ../sass/styles.scss */
+.telefono a:link, .telefono a:visited {
+  text-decoration: none;
+  color: #58595b;
+}
+/* line 625, ../sass/styles.scss */
+.telefono a:hover, .telefono a:active, .telefono a:focus {
+  text-decoration: underline;
+  color: #404041;
+}
+
+/* Media queries!
+
+.88b  d88.      .d88b.    
+88'YbdP`88     .8P  Y8.   
+88  88  88     88    88   
+88  88  88     88    88   
+88  88  88     `8P  d8'   
+YP  YP  YP      `Y88'Y8   
+
+
+/*-------------------------------------------------------------------------------*/
+/*
+/* Set big backgrounds here to avoid the small browsers loading unnnecesary content OR load them with javascript
+/* Define los fondos grandes en este media query para evitar que carguen innecesariamente en navegadores más pequeños
+*/
+@media screen and (min-width: 480px) {
+  /* line 647, ../sass/styles.scss */
+  .corporis {
+    overflow: hidden;
+    background-color: #404041;
+  }
+  /* line 650, ../sass/styles.scss */
+  .corporis .titulo {
+    display: none;
+  }
+
+  /* line 654, ../sass/styles.scss */
+  .productos, .slogan {
+    float: right;
+    width: 25%;
+    padding: 0.5em 3% 0.5em 1%;
+  }
+  /* line 661, ../sass/styles.scss */
+  .productos ul li ul li, .slogan ul li ul li {
+    display: block;
+  }
+
+  /* line 668, ../sass/styles.scss */
+  .slogan {
+    float: left;
+  }
+
+  /* line 669, ../sass/styles.scss */
+  .articleList, .pagina-categoria article, .pagina-ficha article {
+    float: right;
+    width: 70%;
+    overflow: hidden;
+  }
+
+  /* line 674, ../sass/styles.scss */
+  .categoria, .caluga {
+    width: 50%;
+    height: 232px;
+    border: 0;
+    float: left;
+    /*@include inline-block;
+    margin-left: -0.25em;
+    padding-left: 0.25em;*/
+    overflow: hidden;
+  }
+  /* line 684, ../sass/styles.scss */
+  .categoria.doble, .caluga.doble {
+    width: 100%;
+  }
+  /* line 685, ../sass/styles.scss */
+  .categoria.porotos.doble, .caluga.porotos.doble {
+    width: 50%;
+  }
+  /* line 686, ../sass/styles.scss */
+  .categoria img, .caluga img {
+    width: 100%;
+  }
+  /* line 689, ../sass/styles.scss */
+  .categoria p.vermas, .caluga p.vermas {
+    top: auto;
+    bottom: 2px;
+    right: 10px;
+  }
+
+  /* line 698, ../sass/styles.scss */
+  .muestraCategoria {
+    float: left;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 625px) {
+  /* line 705, ../sass/styles.scss */
+  header nav {
+    border-top: none;
+  }
+
+  /* line 709, ../sass/styles.scss */
+  .ico-hoja {
+    font-family: 'icomoon';
+    font-style: normal;
+    speak: none;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    -webkit-transform: rotate3d(1, 1, 0, 360deg);
+    -moz-transform: rotate3d(1, 1, 0, 360deg);
+    -ms-transform: rotate3d(1, 1, 0, 360deg);
+    -o-transform: rotate3d(1, 1, 0, 360deg);
+    transform: rotate3d(1, 1, 0, 360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    position: relative;
+    bottom: 1em;
+  }
+  /* line 724, ../sass/styles.scss */
+  header nav li:hover .ico-hoja, header nav li:focus .ico-hoja {
+    -webkit-transform: rotate3d(1, 1, 0, 0deg);
+    -moz-transform: rotate3d(1, 1, 0, 0deg);
+    -ms-transform: rotate3d(1, 1, 0, 0deg);
+    -o-transform: rotate3d(1, 1, 0, 0deg);
+    transform: rotate3d(1, 1, 0, 0deg);
+    -moz-transform: rotate3d(0, 0, 1, 190deg);
+    color: #00a94f;
+  }
+  /* line 729, ../sass/styles.scss */
+  .ico-hoja.activo {
+    color: #00a94f;
+  }
+
+  /* line 735, ../sass/styles.scss */
+  .pagina-ficha article figure {
+    float: right;
+    width: 171px;
+    margin: -3.5em 0.5em 1em 1em;
+  }
+}
+@media screen and (min-width: 730px) {
+  /* line 746, ../sass/styles.scss */
+  header nav li {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+  }
+
+  /* line 752, ../sass/styles.scss */
+  .corporis {
+    position: relative;
+    background: none;
+  }
+
+  /* line 756, ../sass/styles.scss */
+  .productos, .slogan {
+    width: 165px;
+    padding: 1.875em 1.875em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-top: 1px solid #404041;
+    border-bottom: 1px solid #404041;
+  }
+
+  /* line 766, ../sass/styles.scss */
+  .articleList, .pagina-categoria article, .pagina-ficha article, .pagina-contenido article {
+    margin-left: 232px;
+    width: auto;
+  }
+
+  /* line 770, ../sass/styles.scss */
+  .categoria, .caluga {
+    width: 33.3333%;
+    z-index: 5;
+  }
+  /* line 773, ../sass/styles.scss */
+  .categoria.doble, .categoria.porotos.doble, .caluga.doble, .caluga.porotos.doble {
+    width: 66.6666%;
+  }
+  /* line 774, ../sass/styles.scss */
+  .categoria.dobleVertical, .caluga.dobleVertical {
+    height: 464px;
+  }
+  /* line 775, ../sass/styles.scss */
+  .categoria.porotos, .caluga.porotos {
+    margin: 0 33.3333% 232px 0;
+  }
+  /* line 776, ../sass/styles.scss */
+  .categoria.porotos.dobleVertical, .caluga.porotos.dobleVertical {
+    position: absolute;
+    top: 0;
+    left: 232px;
+    z-index: 0;
+  }
+  /* line 777, ../sass/styles.scss */
+  .categoria.aceite, .caluga.aceite {
+    position: relative;
+    top: -232px;
+  }
+  /* line 778, ../sass/styles.scss */
+  .categoria img, .caluga img {
+    min-height: 100%;
+  }
+
+  /* line 785, ../sass/styles.scss */
+  .muestraCategoria {
+    width: 66.6666%;
+  }
+
+  /* line 789, ../sass/styles.scss */
+  .listaProductos li {
+    width: 32%;
+  }
+
+  /* line 794, ../sass/styles.scss */
+  footer .wrapper {
+    margin-top: -1em;
+  }
+  /* line 797, ../sass/styles.scss */
+  footer .grupo {
+    margin-left: 4.951%;
+    margin-right: 2.2%;
+    width: 42.2%;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    vertical-align: top;
+  }
+  /* line 803, ../sass/styles.scss */
+  footer .grupo.telefonos {
+    margin-top: 2.375em;
+    border-top: 1px solid #CCC;
+  }
+}
+@media screen and (min-width: 800px) {
+  /* line 812, ../sass/styles.scss */
+  .columna {
+    width: 46%;
+    float: left;
+  }
+}
+@media screen and (min-width: 960px) {
+  /* line 818, ../sass/styles.scss */
+  .wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  /* line 822, ../sass/styles.scss */
+  .logoCapsa {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    width: 225px;
+    text-align: center;
+  }
+
+  /* line 828, ../sass/styles.scss */
+  header nav {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+    margin-bottom: 0;
+    margin-top: 3em;
+    width: 720px;
+  }
+  /* line 834, ../sass/styles.scss */
+  header nav ul {
+    width: auto;
+    text-align: center;
+  }
+
+  /* line 840, ../sass/styles.scss */
+  .categoria, .caluga {
+    width: 25%;
+  }
+  /* line 842, ../sass/styles.scss */
+  .categoria.doble, .categoria.porotos.doble, .caluga.doble, .caluga.porotos.doble {
+    width: 50%;
+  }
+  /* line 844, ../sass/styles.scss */
+  .categoria.porotos, .caluga.porotos {
+    margin: 0 25% 232px 0;
+  }
+
+  /* line 846, ../sass/styles.scss */
+  .menos1h {
+    position: relative;
+    top: -232px;
+  }
+
+  /* line 850, ../sass/styles.scss */
+  .menos1w {
+    position: relative;
+    left: -25%;
+  }
+
+  /* line 854, ../sass/styles.scss */
+  .mas1h {
+    position: relative;
+    top: 232px;
+  }
+
+  /* line 858, ../sass/styles.scss */
+  .mas1w {
+    position: relative;
+    left: 25%;
+  }
+
+  /* line 862, ../sass/styles.scss */
+  .acorta1h {
+    margin-bottom: -232px;
+  }
+
+  /* line 868, ../sass/styles.scss */
+  .muestraCategoria {
+    width: 75%;
+  }
+
+  /* line 872, ../sass/styles.scss */
+  .listaProductos li {
+    width: 24%;
+  }
+
+  /* line 877, ../sass/styles.scss */
+  footer .wrapper {
+    padding-left: 233px;
+    width: 727px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOgAAAABCAYAAADU4uIyAAAAFUlEQVQoz2N0cHD8zzAKRsEoGJQAAFvdAcKxHx0/AAAAAElFTkSuQmCC) repeat-y 0 0;
+    margin-top: -1em;
+    margin-bottom: -1em;
+    border: 1px solid transparent;
+  }
+  /* line 884, ../sass/styles.scss */
+  .ie7 footer .wrapper {
+    background: url(../imgs/spng/solid_0x404041_232.png) repeat-y 0 0;
+  }
+}
+/* Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+/*iPhone 4 y iPad horizontal, Samsung & HTC WVGA horizonal have at least 800*/
+/* max-device-width al parecer es sólo reconocido por smartphones*/

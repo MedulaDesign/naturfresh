@@ -1,0 +1,908 @@
+/* BIG TEXT with 
+http://bigtext.org/
+tipo univers */
+
+$azulHover:#06e;
+$verdeAgroprodex:#00A94F;
+$amarilloAgroprodex:#FFE000;
+$grisOscuro:#404041;
+$grisOscuro2:#58595B;
+$grisClaroFondo:#F8F7F2;
+$grisClaroTexto:#E6E7E8;
+$verdoso:#C0D456;
+$verdosoOscuro: #809D3D;
+$verdeClaro:#8BC53F;
+$rojo:#DC4028;
+
+
+@import "compass/css3";
+@import "_normals";
+@import "_fonts";
+@import "_forms";
+
+//@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);//Our current favourite 'PT Sans'
+//$defaultFontStack: Helmet, Freesans, sans-serif;
+$defaultFontStack: Calibri, Helmet, Freesans, sans-serif;
+$carthoBookFontStack: "CartoGothicStdBook", Helmet, Freesans, sans-serif;
+$carthoBoldFontStack: "CartoGothicStdBold", Helmet, Freesans, sans-serif;
+$bitterFontStack: "BitterRegular", Georgia, serif;
+
+body {font-family:$defaultFontStack;color: $grisOscuro;}
+
+/* Working with only this class is possible to build a responsive layout
+/* sólo con esta clase es posible hecer que el sitio completo responda al ancho de pantalla*/
+.wrapper{
+	width:auto;
+	margin:0;
+}
+
+.amictus{
+	border-top: 9px solid $verdeAgroprodex;
+}
+#logoTop{
+	width:159px;
+	margin:2px auto;
+}
+hr{
+	background: none;
+	border:none;
+	border-top: 1px solid #ccc;
+}
+header{
+	nav{
+		font-family: $carthoBoldFontStack;
+		font-weight: normal;
+		font-size: 1em;
+		color: #58595B;
+		margin: 2.125em 0 0.5em 0;
+		border-top: 1px solid #CCC;
+		a{
+			text-decoration: none;
+			@include single-transition(color, 0.3s, ease-out);
+			&:link, &:visited{
+				color: #58595B;
+			}
+			&:hover, &:active, &:focus{
+				color: $verdeAgroprodex;
+			}
+		}
+		ul{
+			margin: -1.5em 0 0 0;
+			text-align: center;
+			padding: 0;
+		}
+		li{
+			@include inline-block;
+			text-transform: uppercase;
+			margin:0.1875em 0.25em;
+		}
+	}
+}
+.ico-hoja{display: none;}
+h1{
+	font-size: 1.875em;
+}
+.slogan{
+	font-family: $carthoBoldFontStack;
+	font-size: 1.125em;
+	background: $grisOscuro;
+	color: $grisClaroTexto;
+	padding: 0 1em;
+	h1{
+		text-transform: uppercase;
+		color: $verdoso;
+		margin-bottom: 0;
+		font-weight: normal;
+		font-size: 1.667em;
+	}
+	p{
+		margin-bottom: 1em;
+		font-family: $carthoBookFontStack;
+		font-weight: normal;
+	}
+}
+.boton{
+	@include inline-block;
+	min-width: 3em;
+	height: 1.25em;
+	line-height: 1.25em;
+	text-align: center;
+	border-radius: 3px;
+	@include single-box-shadow(rgba(0,0,0,0.3), 1px, 1px, 3px, 1px);
+	@include single-transition(background-color, 0.3s, ease-in-out);
+	color: #FFF;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	background:$verdeAgroprodex;
+	padding: 0 0.5em;
+	&:link, &:visited{
+		color: #FFF;
+		background: $verdeAgroprodex;
+	}
+	&:hover, &:active, &:focus{
+		color: #FFF;
+		background-color: #404041;
+		@include background-image(linear-gradient(#58595B, #404041));//from top to bottom	
+	}
+}
+.vermas{
+	position: absolute;
+	top: 1em;
+	right:1em;
+	display: block;
+	min-width: 3em;
+	height: 1.25em;
+	line-height: 1.25em;
+	text-align: center;
+	border-radius: 3px;
+	@include single-box-shadow(rgba(0,0,0,0.3), 1px, 1px, 3px, 1px);
+	@include single-transition(background-color, 0.3s, ease-in-out);
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	background-color: #404041;
+	@include background-image(linear-gradient(#58595B, #404041));//from top to bottom
+}
+.categoria{
+	border-bottom: 1em solid $grisOscuro;
+	border-top: 1px solid transparent;
+	margin:0;
+	position: relative;
+	text-align: left;
+	background-color: #FFF;
+	a{
+		display: block;
+		text-decoration: none;
+		color: $grisOscuro;
+		padding: 0.5em 1em;
+		&:link, &:visited{
+			h1{
+				border-bottom: 1px solid transparent;
+			}
+		}
+		&:hover, &:active, &:focus{
+			p.vermas{
+				//color: #FFF;
+				//text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+				//background-color: #404041;
+				//@include background-image(linear-gradient(#58595B, #404041));//from top to bottom
+				color: $grisOscuro;
+				text-shadow: none;//1px 1px 1px rgba(0,0,0,0.7);
+				background: #FFF;
+			}
+			h1{
+				border-bottom: 1px solid rgba(0,0,0,0.5);
+			}
+		}
+		&:active{
+			p.vermas{
+				@include single-box-shadow(rgba(0,0,0,0), 0, 0, 0);
+				text-shadow: -1px -1px 2px rgba(255,255,255,0.7);
+				color: #000;
+			}
+		}
+	}
+	h1{
+		font-family: $bitterFontStack;
+		font-size: 1.5em;
+		margin-bottom: 0;
+		line-height: 1em;
+		@include inline-block;
+		@include single-transition(border-bottom, 0.3s, ease-in-out);
+	}
+	p{
+		line-height: 1.14em;
+		font-size: 0.938em;
+		&.vermas{
+			position: absolute;
+			top: 1em;
+			right:1em;
+			display: block;
+			width: 3em;
+			@include single-box-shadow(rgba(0,0,0,0.3), 1px, 1px, 3px, 1px);
+			@include single-transition(background-color, 0.3s, ease-in-out);
+			color: #FFF;
+			text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+			background-color: #404041;
+			@include background-image(linear-gradient(#58595B, #404041));//from top to bottom
+		}
+	}
+	img{
+		max-width: 100%;
+		display: block;
+	}
+	&.porotos, &.arvejas, &.verde, &.amarillo{
+		p.vermas{
+			color: $grisOscuro;
+			text-shadow: none;
+			background: #FFF;
+		}
+		a{
+			&:hover, &:active, &:focus{
+				p.vermas{
+					color: #FFF;
+					text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+					background-color: #404041;
+					@include background-image(linear-gradient(#58595B, #404041));//from top to bottom
+				}
+			}
+		}
+	}
+}
+figure.categoria{
+	border: none;
+}
+.porotos{
+	background-color: $amarilloAgroprodex;
+}
+.arvejas{
+	background-color: $verdeAgroprodex;
+	a{
+		color: #FFF;
+	}
+}
+/*
+
+                                                                                                              
+  ,ad8888ba,        db   888888888888 88888888888 ,ad8888ba,    ,ad8888ba,   88888888ba  88        db         
+ d8"'    `"8b      d88b       88      88         d8"'    `"8b  d8"'    `"8b  88      "8b 88       d88b        
+d8'               d8'`8b      88      88        d8'           d8'        `8b 88      ,8P 88      d8'`8b       
+88               d8'  `8b     88      88aaaaa   88            88          88 88aaaaaa8P' 88     d8'  `8b      
+88              d8YaaaaY8b    88      88"""""   88      88888 88          88 88""""88'   88    d8YaaaaY8b     
+Y8,            d8""""""""8b   88      88        Y8,        88 Y8,        ,8P 88    `8b   88   d8""""""""8b    
+ Y8a.    .a8P d8'        `8b  88      88         Y8a.    .a88  Y8a.    .a8P  88     `8b  88  d8'        `8b   
+  `"Y8888Y"' d8'          `8b 88      88888888888 `"Y88888P"    `"Y8888Y"'   88      `8b 88 d8'          `8b  
+                                                                                                              
+
+*/
+
+.caluga{
+	border-bottom: 1em solid #404041;
+	border-top: 1px solid transparent;
+	margin: 0;
+	position: relative;
+	text-align: left;
+	background-color: white;
+	.tipoA{
+		padding: 0.5em 1em;
+	}
+	h1{
+		font-family: $bitterFontStack;
+		font-size: 1.5em;
+		margin-bottom: 1px;
+		line-height: 1em;
+	}
+}
+.pagina-categoria{
+	article{
+		background: #FFF;
+		position: relative;
+		z-index: 4;
+		header{
+			overflow: hidden;
+		}
+		footer{
+			background: #F1F1F1;
+			border-top:1px solid #F1F1F1;
+			padding: 0 0 1em 3px;
+			h2{
+				color: $grisOscuro;
+				margin:0.5em;
+			}
+		}
+	}
+	h2{
+		font-size: 1.5em;
+		font-family: $bitterFontStack;
+		text-align: left;
+	}
+}
+.muestraCategoria{
+	overflow:hidden;
+	img{
+		display:block;
+	}
+}
+.listaProductos{
+	padding: 0;
+	overflow: hidden;
+	li{
+		list-style-type: none;
+		border:1px solid $grisClaroTexto;
+		margin: 0.25em 0.25% 0.25em 0.25%;
+		//padding: 0 0 1.25em 0;
+		min-height: 250px;
+		width: 48%;
+		float: left;
+		text-align: center;
+		position: relative;
+		a{
+			display: block;
+			text-decoration: none;
+			padding-left: 0.5em;
+			&:link, &:visited{
+				color: $grisOscuro2;
+				h3{
+					color: $grisOscuro;
+				}
+				p.vermas{
+					background: $verdeAgroprodex;
+				}
+			}
+			&:hover, &:active, &:focus{
+				color: $verdeAgroprodex;
+				h3{
+					color: $verdeAgroprodex;
+				}
+				p.vermas{
+					color: $grisOscuro;
+					text-shadow: none;//1px 1px 1px rgba(0,0,0,0.7);
+					background: #FFF;
+				}
+			}
+		}
+	}
+	h3{
+		font-size: 1.125em;
+		font-family: $bitterFontStack;
+		text-align: left;
+		margin: 0.75em 0 0 0;
+	}
+	p{
+		text-align: left;
+		margin: 0 0 0.5em 0;
+	}
+	.vermas{
+		bottom:-2px;
+		right: 4px;
+		top: auto;
+		padding: 0 0.25em;
+		font-size: 0.75em;
+		//background-color: $verdeAgroprodex;
+	}
+}
+
+.otrosProductos{
+	li{
+		background:#FFF;
+		a{
+			&:link, &:visited{
+				text-decoration: none;
+				p.vermas{
+					background: $verdeClaro;
+				}
+			}
+			&:hover, &:active, &:focus{
+				p.vermas{
+					color: #FFF;
+					background: $rojo;
+				}
+			}
+		}
+	}
+}
+
+/*
+
+d8888b. d8888b.  .d88b.  d8888b. db    db  .o88b. d888888b  .d88b.  .d8888. 
+88  `8D 88  `8D .8P  Y8. 88  `8D 88    88 d8P  Y8 `~~88~~' .8P  Y8. 88'  YP 
+88oodD' 88oobY' 88    88 88   88 88    88 8P         88    88    88 `8bo.   
+88~~~   88`8b   88    88 88   88 88    88 8b         88    88    88   `Y8b. 
+88      88 `88. `8b  d8' 88  .8D 88b  d88 Y8b  d8    88    `8b  d8' db   8D 
+88      88   YD  `Y88P'  Y8888D' ~Y8888P'  `Y88P'    YP     `Y88P'  `8888Y' 
+
+*/
+.titulo{
+	text-align: center;
+	display: block;
+	background-color: $grisOscuro;
+	margin: 0;
+	padding: 0.25em;
+	color: $verdoso;
+}
+.amarillo{
+	background-color: $amarilloAgroprodex;
+	text-shadow: -1px -1px 1px rgba(255,255,255,0.7);
+}
+.verde{
+	background-color: $verdeAgroprodex;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	color: #FFF;
+	a{
+		color: #FFF;
+	}
+}
+.rojo{
+	background-color: $rojo;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	color: #FFF;
+	a{
+		color: #FFF;
+	}
+}
+.grisClaro{
+	background-color: $grisClaroFondo;
+	text-shadow: -1px -1px 1px rgba(255,255,255,0.7);
+}
+.productos{ //nav.productos
+	background-color: $grisOscuro;
+	font-family: $carthoBoldFontStack;
+	font-weight: normal;
+	padding: 0.5em 1em;
+	font-size:1.125em;
+	h1{
+		color: $verdoso;
+		margin-top: 0;
+		font-size: 1.667em;
+	}
+	ul{
+		padding: 0;
+		li{
+			//font-size: 1.125em;
+			ul{
+				//display: none;
+				font-size: 0.889em;
+				font-family: $defaultFontStack;
+				margin-top: 0;
+				a{
+					&:link, &:visited{
+						color: #c5c5c5;
+					}
+					&:hover, &:active, &:focus{
+						color: #EEE;
+					}
+				}
+				li{
+					@include inline-block;
+					border-left: 1px solid #777;
+					padding-left: 4px;
+				}
+			}
+		}
+	}
+	a{
+		text-shadow: 0 1px 2px rgba(0,0,0,0.7);
+		&:link, &:visited{
+			text-decoration: none;
+			color: #e5e5e5;
+		}
+		&:hover, &:active, &:focus{
+			text-decoration: underline;
+			color: #FFF;
+		}
+	}
+}
+$margenFichaLeft:3.022%;
+.pagina-ficha, .pagina-contenido{
+	article{
+		background: #FFF;
+		header{
+			overflow: hidden;
+		}
+		h2{
+			font-size: 1.5em;
+			margin: 1em $margenFichaLeft/2 0.5em $margenFichaLeft;
+			font-family: $bitterFontStack;
+		}
+		h3{
+			//font-size: 1em;
+			line-height: 1em;
+			margin: 1em $margenFichaLeft/2 0.125em $margenFichaLeft;
+			color: $verdeAgroprodex;
+		}
+		p{
+			margin-top: 0.125em;
+			margin-left: $margenFichaLeft + 1.111;
+			&.bajada{
+				font-family: $bitterFontStack;
+				color: $verdeClaro;
+				text-transform: uppercase;
+			}
+		}
+		figure{
+			display: block;
+			border: 1px solid $grisClaroTexto;
+			padding-bottom: 1em;
+			text-align: center;
+			position:relative;
+			.vermas{
+				top:auto;
+				bottom:-11px;
+				right: -3px;
+				padding: 0 0.5em;
+				background: $verdeAgroprodex;
+				color: #FFF;
+			}
+		}
+		figcaption{
+			margin:0.125em 0.25em;
+			line-height: 1em;
+		}
+	}
+}
+.pagina-ancha{
+	article{
+		background:#FFF;
+	}
+}
+table{
+	margin-left: $margenFichaLeft;
+	border: 1px solid $grisClaroTexto;
+	width: 100% - ($margenFichaLeft + ($margenFichaLeft/2));
+}
+td,th{
+	padding: 0.25em 0.5em;
+	border-top: 1px solid $grisClaroTexto;
+	border-bottom: 1px solid $grisClaroTexto;
+}
+tr:nth-child(even) td{
+	background:#F8F7F2;
+}
+tr.par td{
+	background:#F8F7F2;
+}
+
+.columna{
+	padding: 0 2% 0 2%;
+}
+
+/*
+
+d88888b  .d88b.   .d88b.  d888888b d88888b d8888b. 
+88'     .8P  Y8. .8P  Y8. `~~88~~' 88'     88  `8D 
+88ooo   88    88 88    88    88    88ooooo 88oobY' 
+88~~~   88    88 88    88    88    88~~~~~ 88`8b   
+88      `8b  d8' `8b  d8'    88    88.     88 `88. 
+YP       `Y88P'   `Y88P'     YP    Y88888P 88   YD 
+
+*/
+footer{
+	background-color: $grisClaroFondo;
+	padding: 1em 0.75em;
+	.grupo{
+		margin-bottom: 2em;
+	}
+	.logo{
+		margin-left: 4.951%;
+		margin-top: 1.125em;
+	}
+	h2{
+		font-family: $carthoBookFontStack;
+		font-weight: normal;
+		color: $verdeAgroprodex;
+		font-size: 1.125em;
+		margin-bottom: 0;
+	}
+	a{
+		&:link, &:visited{
+			text-decoration: underline;
+			color: $grisOscuro;
+		}
+		&:hover, &:active, &:focus{
+			text-decoration: none;
+			color: $verdeAgroprodex;
+		}
+	}
+	p.correo{
+		margin-top: 0;
+	}
+}
+.postal-code{
+	border-bottom: 1px dotted $grisOscuro2;
+	position: relative;
+	cursor: default;
+	&:before{
+		content: "[?]";
+		font-size: 0.865em;
+		position: absolute;
+		left: -1.125em;
+		color: $verdeAgroprodex;
+	}
+}
+.verEnMaps{
+	margin-top: -0.5em;
+	a{
+		line-height: 1em;
+		&:link, &:visited{
+			text-decoration: none;
+			color: $verdeAgroprodex;
+		}
+		&:hover, &:active, &:focus{
+			text-decoration: underline;
+			color: $grisOscuro;
+		}
+	}
+}
+.telefono{
+	span{color: $verdeAgroprodex;}
+	a{
+		font-weight:bold;
+		font-size: 1.125em;
+		white-space: nowrap;
+		&:link, &:visited{
+			text-decoration: none;
+			color: $grisOscuro2;
+		}
+		&:hover, &:active, &:focus{
+			text-decoration: underline;
+			color: $grisOscuro;
+		}
+	}
+}
+/* Media queries!
+
+.88b  d88.      .d88b.    
+88'YbdP`88     .8P  Y8.   
+88  88  88     88    88   
+88  88  88     88    88   
+88  88  88     `8P  d8'   
+YP  YP  YP      `Y88'Y8   
+
+
+/*-------------------------------------------------------------------------------*/
+/*
+/* Set big backgrounds here to avoid the small browsers loading unnnecesary content OR load them with javascript
+/* Define los fondos grandes en este media query para evitar que carguen innecesariamente en navegadores más pequeños
+*/
+@media screen and (min-width: 480px) {//desde 480 hacia arriba
+    .corporis{
+    	overflow: hidden;
+    	background-color: $grisOscuro;
+    	.titulo{
+    		display: none;
+    	}
+    }
+    .productos, .slogan{
+    	float: right;
+    	width: 25%;
+    	padding: 0.5em 3% 0.5em 1%;
+    	ul{
+    		li{
+    			ul{
+    				li{
+    					display: block;
+    				}
+    			}
+    		}
+    	}
+    }
+    .slogan{float:left;}
+    .articleList, .pagina-categoria article, .pagina-ficha article{
+    	float: right;
+    	width: 70%;
+    	overflow: hidden;
+    }
+    .categoria, .caluga{
+    	width:50%;
+    	height:232px;
+    	//border-bottom: 1px solid transparent;
+    	border:0;
+    	float: left;
+    	/*@include inline-block;
+    	margin-left: -0.25em;
+    	padding-left: 0.25em;*/
+    	overflow: hidden;
+    	&.doble{width:100%;}
+    	&.porotos.doble{width:50%;}
+    	img{
+    		width: 100%;
+    	}
+    	p.vermas{
+    		top:auto;
+    		bottom:2px;
+    		right: 10px;
+    	}
+    }
+    .pagina-categoria{
+    	
+	}
+	.muestraCategoria{
+		float: left;
+		width: 50%;
+	}
+}
+@media screen and (min-width: 625px) {//desde 560 hacia arriba
+	header{
+		nav{
+			border-top: none;
+		}
+	}
+	.ico-hoja {
+		//content: "\2660";
+		font-family: 'icomoon';
+		font-style: normal;
+		speak: none;
+		font-weight: normal;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		@include inline-block;
+		@include rotate3d(1,1,0,360deg);
+		@include single-transition(all, 1s);
+		//padding-bottom: 0.75em;
+		//margin-top: -0.75em;
+		position:relative;
+		bottom:1em;
+		header nav li:hover &, header nav li:focus &{
+			@include rotate3d(1,1,0,0deg);
+			-moz-transform: rotate3d(0, 0, 1, 190deg);
+			color: $verdeAgroprodex;
+		}
+		&.activo{
+			color: $verdeAgroprodex;
+		}
+	}
+	.pagina-ficha{
+		article{
+			figure{
+				float: right;
+				width: 171px;
+				margin: -3.5em 0.5em 1em 1em;
+			}
+		}
+	}
+}
+@media screen and (min-width: 730px) {//desde 730 hacia arriba
+	header{
+		nav{
+			li{
+				margin-left: 0.75em;
+				margin-right: 0.75em;
+			}
+		}
+	}
+	.corporis{
+		position:relative;
+		background: none;
+	}
+	.productos, .slogan{
+		width: 165px;
+    	padding: 1.875em 1.875em;
+    	position: absolute;
+    	top:0;
+    	left: 0;
+    	height: 100%;
+    	border-top: 1px solid $grisOscuro;
+    	border-bottom: 1px solid $grisOscuro;
+	}
+	.articleList, .pagina-categoria article, .pagina-ficha article, .pagina-contenido article{
+		margin-left: 232px;
+		width: auto;
+	}
+	.categoria, .caluga{
+		width:33.3333%;
+		z-index: 5;
+		&.doble, &.porotos.doble{width:66.6666%;}
+		&.dobleVertical{height:464px;}
+		&.porotos{margin:0 33.3333% 232px 0;}
+		&.porotos.dobleVertical{position: absolute; top:0; left:232px; z-index: 0;}
+		&.aceite{position: relative; top:-232px;}
+		img{
+			min-height: 100%;
+		}
+	}
+	.pagina-categoria{
+
+	}
+	.muestraCategoria{
+		width: 66.6666%;
+	}
+	.listaProductos{
+		li{
+			width: 32%;
+		}
+	}
+	footer{
+		.wrapper{
+			margin-top: -1em;
+		}
+		.grupo{
+			margin-left: 4.951%;
+			margin-right: 2.2%;
+			width:42.2%;
+			@include inline-block;
+			vertical-align: top;
+			&.telefonos{
+				margin-top: 2.375em;
+				border-top: 1px solid #CCC;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 800px) {//desde 800px hacia arriba
+	.columna{
+		width: 46%;
+		float: left;
+	}
+}
+@media screen and (min-width: 960px) {//desde 960px hacia arriba
+	.wrapper{
+	    width:960px;
+	    margin:0 auto;
+	}
+	.logoCapsa{
+		@include inline-block;
+		width: 225px;
+		text-align: center;
+	}
+	header{
+		nav{
+			@include inline-block;
+			vertical-align: middle;
+			margin-bottom: 0;
+			margin-top: 3em;
+			width: 720px;
+			ul{
+				width: auto;
+				text-align: center;
+			}
+		}
+	}
+	.categoria, .caluga{
+		width:25%;
+		&.doble, &.porotos.doble{width:50%;}
+
+		&.porotos{margin:0 25% 232px 0;}
+	}
+	.menos1h{
+		position: relative;
+		top:-232px;
+	}
+	.menos1w{
+		position: relative;
+		left:-25%;
+	}
+	.mas1h{
+		position: relative;
+		top:232px;
+	}
+	.mas1w{
+		position: relative;
+		left:25%;
+	}
+	.acorta1h{
+		margin-bottom: -232px;
+	}
+	.pagina-categoria{
+		
+	}
+	.muestraCategoria{
+		width: 75%;
+	}
+		.listaProductos{
+		li{
+			width: 24%;
+		}
+	}
+	footer{
+		.wrapper{
+			padding-left: 233px;
+			width: 727px;
+			background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOgAAAABCAYAAADU4uIyAAAAFUlEQVQoz2N0cHD8zzAKRsEoGJQAAFvdAcKxHx0/AAAAAElFTkSuQmCC) repeat-y 0 0;//../imgs/spng/solid_0x404041_232.png
+			margin-top: -1em;
+			margin-bottom: -1em;
+			border:1px solid transparent;
+			.ie7 &{
+				background: url(../imgs/spng/solid_0x404041_232.png) repeat-y 0 0;
+			}
+		}	
+	}
+}
+
+/* Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+/*iPhone 4 y iPad horizontal, Samsung & HTC WVGA horizonal have at least 800*/
+@media screen and (max-width: 799px) {
+    
+}
+/* max-device-width al parecer es sólo reconocido por smartphones*/
+@media screen and (max-width: 480px) {
+    
+        
+}
+
+@media all and (orientation: portrait) {
+    
+}
+
+@media all and (orientation: landscape) {
+    
+}
