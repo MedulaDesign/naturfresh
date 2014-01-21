@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Porotos Tortola &ndash; Porotos Tortola &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Tortola Bean &ndash; Legume &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -43,14 +43,13 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/productos/bolsa-porotos-tortola-150x205.jpg" alt="">
+				<img src="imgs/bag-150x205.jpg" alt="">
 				<figcaption>
-					Paquete de 1 Kg; <br>
+					Bag of 1 Kg; <br>
 				</figcaption>
-				<p class="vermas">cotizar</p>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. 
-.<br>
+			<p class="bajada">lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id.<br>
 			</p>
 			<p>Quo mundi lobortis reformidans eu.</p>
 				<h2>Receta <br>
@@ -70,11 +69,11 @@ include "_/inc/datos-globales.php";
 			<h3>PRODUCT</h3>
 			<p>Tortola Beans</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information: </b>Contenido neto NCh 1650/1-2 Of.84</p>
+			<p><b>Information: </b><?=lorem::get(10)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>1Kg - 10x1 - 20x1- Sacos de 50 Kg.(Polipropileno)</td>
+					<td>1Kg - 10x1 - 20x1- Bags of 50 Kg. (polypropylene)</td>
 				</tr>
 				<tr>
 					<td><b>Portion</b></td>
@@ -152,13 +151,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

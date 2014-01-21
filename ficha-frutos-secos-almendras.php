@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Almendras &ndash;Almendras &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Almonds &ndash; Dried Fruit &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>ALMEDRAS</h1>
-						<p>Fruto del almendro. Producto destinado por NaturFresh para satisfacer las necesidades de los mercados europeos y latinoamericanos. 
+						<h1>ALMONDS</h1>
+						<p><?=lorem::get(17)?>
 						  <br>
 					  </p>
 					</div>
@@ -44,50 +44,38 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/productos/sinfotos-150x205.jpg" alt="">
-				<figcaption>
-		Alemendras
-					
-				</figcaption>
-				</figure></h2><figure><p class="vermas">cotizar</p>
+				<img src="imgs/almonds-150x205.jpg" alt="">
+				<figcaption>Almonds</figcaption>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Las almendras destacan por elevado valor energético, bajo contenido en azúcares. En cuanto a sus propiedades nutritivas éstas poseen fibra, calcio, minerales y vitaminas fundamentales para la ingesta humana.</p>
-			<p>Las almendras son muy utilizadas en postres, mazapanes, aperitivo, aceite y últimamente como leche.<br>
+			<p class="bajada"><?=lorem::get(26)?></p>
+			<p><?=lorem::get(6)?><br>
 			</p>
 
-<h2>Receta <br>
-  (Bolitas de almendras /4 personas) </h2>
+<h2>Recipe <br>
+  (Almond balls /serves 4) </h2>
 <h3>Ingredients:</h3>
         <ul class= "ingredientes">
-		<li><em>500 g. de almendras peladas y molidas <br>
-		</em></li>
-<li><em>500 g<strong>.</strong> de <strong><a href="ficha-azucar.php">azúcar</a></strong></em></li>
-<li><em>12 yemas de huevo</em></li>
-<li><em>6 claras de huevo</em><em></em></li>
+		<li>500 g. <?=lorem::get(6)?></li>
+<li>2 <?=lorem::get(6)?></li>
+<li>1 <?=lorem::get(6)?></li>
+<li>1 <?=lorem::get(6)?></li>
 	</ul>
     <h3>Method	</h3>
-	<p><em>Prepare un almíbar de punto con el azúcar. Añada las almendras, las yemas y las claras batidas a punto de nieve. Lleve todo a fuego lento hasta que al revolver con una cuchara de madera se despegue del fondo. <br>
+	<p><em><?=lorem::get(26)?><br>
 	</em></p>
-	<p><em>Retire y deje enfriar. Luego haga bolitas y lleve al horno para que se doren por encima. Para que no se quemen es recomendable poner papel enmantequillado en la lata del horno.</em><br>
+	<p><em><?=lorem::get(26)?></em><br>
 	</p>
 	<h2>Product Detail Producto</h2>
-		
+
 	    <h3>PRODUCT</h3>
-			<p>Almendras</p>
+			<p>Almonds</p>
 			<h3>SPECIFICATIONS</h3>
 			<p><b>Information:</b></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td><b>Portion</b></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td><b>Portion per serving</b></td>
-					<td>&nbsp;</td>
+					<td>Paper bags</td>
 				</tr>
 			</table>
 			<h3>NUTRICIONAL INFORMATION:</h3>
@@ -100,63 +88,63 @@ include "_/inc/datos-globales.php";
 				</tr>
 				<tr>
 					<td>Energy [Kcal.]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Protein [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Total Fat [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
-					<td> Ácidos Grasos Saturados[g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Saturated Fatty Acids[g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
-					<td>Ácidos Grasos Monoinsaturados [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Monounsaturated Fatty Acids [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                  <tr>
-					<td>Ácidos Grasos Poliinsaturados [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Polyunsaturated Fatty Acids [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
 					<td>Carbohydrates Available [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Sodium [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
 					<td>Dietary Fiber [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Calcium [mg]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Iron [mg]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Moisture [%]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 			</table>
 			<h2>Download</h2>
@@ -167,13 +155,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

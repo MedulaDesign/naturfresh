@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Nueces &ndash; Nueces &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Nuts &ndash; Dried Fruit &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>NUECES</h1>
-						<p>Se exportan sobre todo para cubrir la demanda de los mercados asiáticos. Se comercializa con cáscara o peladas en presentación mariposa, cuarto y cuartillo.<br>
+						<h1>NUTS</h1>
+						<p><?=lorem::get(16)?><br>
 					  </p>
 					</div>
 				</div>
@@ -43,51 +43,42 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/productos/sinfotos-150x205.jpg" alt="">
+				<img src="imgs/nuts-150x205.jpg" alt="">
 				<figcaption>
-					Nueces</figcaption>
-				<p class="vermas">cotizar</p>
+					Nuts</figcaption>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Las nueces se pueden consumir durante todo el aÑo, poseen un enorme valor nutricional, aportan Ácidos grasos esenciales para el organismo y es uno de los alimentos más completos, rico en fibras, vitamina B y E y minerales.
-</p>
-			<p>Altamente utilizadas en repostería y como alimento energético.<br>
+			<p class="bajada"><?=lorem::get(16)?></p>
+			<p><?=lorem::get(6)?><br>
 			</p>
-		
-		  <h2>Receta <br>
-  (Galletas de nueces/4 personas) </h2>
+
+		  <h2>Recipe <br>
+  (Nut cookies/serves 4) </h2>
 <h3>Ingredients:</h3>
         <ul class= "ingredientes">
-		  <li>2 tazas de harina</li>
-		  <li> 3/4 de taza de leche fría</li>
-		  <li> 2 cucharaditas de polvos de hornear</li>
-		  <li> 3 cucharadas de mantequilla derretida		    </li>
-		  <li>1/2 cucharadita de sal		    </li>
-		  <li>1 cucharada de azúcar flor </li>
+		  <li>2 <?=lorem::get(6)?></li>
+		  <li> 3/4 <?=lorem::get(6)?></li>
+		  <li> 2 <?=lorem::get(6)?></li>
+		  <li> 3 <?=lorem::get(6)?> </li>
+		  <li>1/2 <?=lorem::get(6)?></li>
+		  <li>1 <?=lorem::get(6)?></li>
 	    </ul>
     <h3>Method	</h3>
-   <p><em>Prepare una masa con la harina, los polvos de hornear y la sal. Trabaje bien la masa y estírela dejándola de medio centímetro de grosor.
+   <p><em><?=lorem::get(16)?>
    </em>
-   <p><em>Pinte la masa con mantequilla derretida y mezclada con el azúcar flor. Ponga encima las nueces picadas y  presione suavemente para que penetren un poquito. </em></p>
-   <p><em>Corte las galletas con la forma que más prefiera y lleve al horno por unos 15 minutos a fuego medio.</em><br>
+   <p><em><?=lorem::get(16)?></em></p>
+   <p><em><?=lorem::get(16)?></em><br>
    </p>
    <h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Nueces</p>
+			<p>Nuts</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(6)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>&nbsp;</td>
-    </tr>
-				<tr>
-					<td><b>Portion</b></td>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td><b>Portion per serving</b></td>
-					<td>&nbsp;</td>
-				</tr>
+					<td>Paper bags</td>
+    			</tr>
 			</table>
 			<h3>NUTRICIONAL INFORMATION:</h3>
 
@@ -99,63 +90,63 @@ include "_/inc/datos-globales.php";
 				</tr>
 				<tr>
 					<td>Energy [Kcal.]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Protein [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Total Fat [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
-					<td> Ácidos Grasos Saturados[g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Saturated Fatty Acids[g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Monounsaturated Fatty Acids [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                  <tr>
-					<td>Ácidos Grasos Poliinsaturados [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Polyunsaturated Fatty Acids [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
 					<td>Carbohydrates Available [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Sodium [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
 					<td>Dietary Fiber [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Calcium [mg]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Iron [mg]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Moisture [%]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 			</table>
   <h2>Download</h2>
@@ -166,13 +157,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

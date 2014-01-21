@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Maiz Pop Corn &ndash; Maiz Pop Corn &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Curahua pop-corn &ndash; Species &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,9 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>MAIZ <br>
-						  					    POP-CORN</h1>
-						<p>Maíz pisingallo, grano redondo de color amarillo importado por NaturFresh directamente desde Argentina para satisfacer las demandas del mercado nacional. <br>
+						<h1>CURAHUA <br> POP-CORN</h1>
+						<p><?=lorem::get(10)?><br>
 						</p>
 					</div>
 				</div>
@@ -45,44 +44,43 @@ include "_/inc/datos-globales.php";
 			<h2>Description</h2>
 			<figure>
 				<img src="imgs/productos/maiz-150x205.jpg" alt="">
-				<figcaption>Maíz Pisingallo <br>(Pop-Corn)</br></figcaption>
-			<p class="vermas">cotizar</p>
+				<figcaption>Curahua <br>(pop-Corn)</br></figcaption>
+			<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Es el único que tiene la cáscara con el grosor adecuado para que reviente. Cada grano de maíz contiene pequeñas cantidades de agua almacenadas en el contenido de almidón de este.<br>
+			<p class="bajada"><?=lorem::get(26)?><br>
 			</p>
-			<p>Utilizado para snacks dulces o salados.<br>
+			<p><?=lorem::get(6)?><br>
 			</p>
-		  <h2>Receta <br>
-  (Cabritas Dulces) </h2>
+		  <h2>Recipe <br>
+  Sweet Popcorn </h2>
 <h3>Ingredients:
   <br>
 		  </h3>
 <ul class= "ingredientes">
-  <li>4 cucharadas de maíz pop corn</li>
-  <li>3 cucharadas de aceite</li>
-  <li>2 cucharadas de azúcar</li>
+  <li>4 <?=lorem::get(6)?></li>
+  <li>3 <?=lorem::get(6)?></li>
+  <li>2 <?=lorem::get(6)?></li>
 	</ul>
     <h3>Method	</h3>
-   <p><em>En una olla ponga el aceite, vacíe el maíz y tápela para luego colocarla a fuego suave. Mueva continuamente la olla con movimientos circulares hacia arriba y hacia abajo.<br>
-     Cuando deje de sonar el maíz apague el fuego y agregue el azúcar.
+   <p><em><?=lorem::get(26)?>
    </em>
    <p>
 <h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Maíz Pisingallo (Pop-Corn)</p>
+			<p>Curahua pop-corn</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b> Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(6)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>Sacos de papel c/polipropileno</td>
+					<td>Paper bags with c/polypropylene</td>
 				</tr>
 				<tr>
-				<td><b>Peso Neto</b></td>
+				<td><b>Net weigth</b></td>
 					<td>50 lb. (22,68 Kg.)</td>
 				</tr>
 				<tr>
-				<td><b>Peso Bruto</b></td>
+				<td><b>Gross weigth</b></td>
 					<td> 50,55 lb. (22,93 Kg.)</td>
 				</tr>
 			</table>
@@ -105,43 +103,43 @@ include "_/inc/datos-globales.php";
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td>Total Lípidos [g]</td>
+					<td>Total lipids [g]</td>
 					<td>28,1</td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td> Carno Hidratos[g]</td>
+					<td>Carbohydrates[g]</td>
 					<td>57,2</td>
 					<td>&nbsp;</td>
 				</tr>
                 <tr>
-					<td>Fibra Total [g]</td>
+					<td>Fiber Total [g]</td>
 					<td>10,0</td>
 					<td>&nbsp;</td>
 				</tr>
                  <tr>
-					<td>Cenizas [g]</td>
+					<td>Ashes [g]</td>
 					<td>2,90</td>
 					<td>&nbsp;</td>
 				</tr>
                 <tr>
-					<td>Agua [g]</td>
+					<td>Water [g]</td>
 					<td>2,80</td>
 					<td>&nbsp;</td>
 				</tr> <tr>
-					<td>Azucares totales[g]</td>
+					<td>Total sugars[g]</td>
 					<td>0,54</td>
 					<td>&nbsp;</td>
 				</tr> <tr>
-					<td>Calcio [mg]</td>
+					<td>Calcium [mg]</td>
 					<td>10</td>
 					<td>&nbsp;</td>
 				</tr> <tr>
-					<td>Hierro [mg]</td>
+					<td>Iron [mg]</td>
 					<td>2,78</td>
 					<td>&nbsp;</td>
 				</tr> <tr>
-					<td>Magnesio [mg]</td>
+					<td>Magnesium [mg]</td>
 					<td>108</td>
 					<td>&nbsp;</td>
 				</tr> <tr>
@@ -149,18 +147,18 @@ include "_/inc/datos-globales.php";
 					<td>225</td>
 					<td>&nbsp;</td>
 				</tr> <tr>
-					<td>Sodio [mg]</td>
+					<td>Sodium [mg]</td>
 					<td>884</td>
 					<td>&nbsp;</td>
 				</tr>
-				
+
 				<tr>
-					<td>Vitamina C [mg]</td>
+					<td>Vitamin C [mg]</td>
 					<td>0,30</td>
 					<td>&nbsp;</td>
 				</tr>
-				
-				
+
+
 			</table>
       <h2>Download</h2>
 			<p><a class="boton" href="#">Download Specifications</a></p>
@@ -170,13 +168,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

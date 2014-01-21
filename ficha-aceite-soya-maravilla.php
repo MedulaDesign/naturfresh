@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Aceite Soja Maravilla  &ndash;Aceite Soja Maravilla  &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Soja Oil &ndash; Oil &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>ACEITE SOJA MARAVILLA</h1>
-						<p>Aceite comestible de sabor suave, mezcla vegetal, 90% soja  y 10% maravilla. <br>
+						<h1>SOJA OIL</h1>
+						<p><?=lorem::get(15)?><br>
 						</div>
 				</div>
 				<div class="muestraCategoria"><img src="imgs/aceite2-546x232.jpg" alt="Aceite Soja Maravilla"></div>
@@ -42,28 +42,28 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/productos/aceite-soja-maravilla-botella-150x205.jpg" alt="">
+				<img src="imgs/oil-150x205.jpg" alt="">
 				<figcaption>
-					Aceite Soja Maravilla <br>
-					1 Litro
+					Soja Oil<br>
+					1 Liter
 				</figcaption>
-				<p class="vermas">cotizar</p>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Importante fuente de energía. Proveedor de nutrientes para el organismo, con importantes funciones vitales como la absorción de las vitaminas liposolubles y ciertos minerales. Al ser vegetal no contiene colesterol.
+			<p class="bajada"><?=lorem::get(25)?>
 <br>
 			</p>
-			<p>Ideal para utilizar en aderezos, guisos y horneados.<br>
+			<p><?=lorem::get(5)?><br>
 			</p>
 			<h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Aceite Soja Maravilla</p>
+			<p>Soja Oil</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(5)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>Botellas PET 12 x 1000cc</td>
-					<td>Botellas PET 12 x 900cc </td>
+					<td>Bottles PET 12 x 1000cc</td>
+					<td>Bottles PET 12 x 900cc </td>
 				</tr>
 				<tr>
 					<td><b>Portion</b></td>
@@ -100,22 +100,22 @@ include "_/inc/datos-globales.php";
 					<td>92</td>
 				</tr>
 				<tr>
-					<td> Grasa Saturada[g]</td>
+					<td>Saturated Fats [g]</td>
 					<td>0,8</td>
 					<td>15</td>
 				</tr>
                 	<tr>
-					<td> Grasa Trans[g]</td>
+					<td>Trans Fats [g]</td>
 					<td>0</td>
 					<td>0</td>
 				</tr>
                 <tr>
-					<td>Grasas Monoinsaturadas [g]</td>
+					<td>Monounsaturated Fats [g]</td>
 					<td>1,1</td>
 					<td>21</td>
 				</tr>
                  <tr>
-					<td>Grasas Poliinsaturadas [g]</td>
+					<td>Polyunsaturated Fats [g]</td>
 					<td>2,8</td>
 					<td>56</td>
 				</tr>
@@ -140,11 +140,11 @@ include "_/inc/datos-globales.php";
 					<td>49</td>
 				</tr>
 				<tr>
-					<td>% Relacion DDR %</td>
+					<td>% DDR Relation %</td>
 					<td>12</td>
 					<td>-</td>
 				</tr>
-				
+
 				<tr>
 					<td>Moisture [%]</td>
 					<td>0,05</td>
@@ -159,13 +159,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

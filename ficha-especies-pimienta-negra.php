@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Pimienta Negra &ndash; Pimienta Negra &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Black Pepper &ndash; Species &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>PIMIENTA NEGRA</h1>
-						<p>NaturFresh dispone de este producto en sacos de 50 kg. Para comercializar en los distintos mercados.<br>
+						<h1>BLACK PEPPER</h1>
+						<p><?=lorem::get(16)?><br>
 						</p>
 					</div>
 				</div>
@@ -45,49 +45,35 @@ include "_/inc/datos-globales.php";
 			<figure>
 				<img src="imgs/productos/pimienta-150x205.jpg" alt="">
 				<figcaption>
-				  Pimienta Negra</figcaption>
-				<p class="vermas">cotizar</p>
+				  Black pepper</figcaption>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Es la pimienta recolectada cuando todavía no está madura, al dejarla secar se pone negra y se arruga. Es la más picante de todas, no sÓlo se ha convertido en una popular especia, sino que también ofrece muchos beneficios para la salud como por ejemplo activa la digestiÓn y ayuda a quemar grasas.<br>
+			<p class="bajada"><?=lorem::get(26)?><br>
 			</p>
-			<p>Los granos de pimienta negra se suelen utilizar, para preparar adobos, encurtidos, marinadas, estofados, guisos.<br>
+			<p><?=lorem::get(16)?><br>
 			</p>
-		<h2>Receta <br>
-  (Lomo a la pimienta con salsa de mostaza y crema/4 personas) </h2>
+		<h2>Recipe <br>
+  (Beef pepper/serves 4) </h2>
 <h3>Ingredients:</h3>
 <ul class= "ingredientes">
-		  <li>4 trozos de lomo de vacuno (corte bife)</li>
-		  <li>2 cucharadas de mantequilla</li>
-		  <li>2 cucharadas de pimienta entera</li>
-		  <li>1 cucharadas de mostaza</li>
-		  <li>sal a gusto</li>
+		  <li>4 <?=lorem::get(6)?></li>
+		  <li>2 <?=lorem::get(6)?></li>
+		  <li>2 <?=lorem::get(6)?></li>
+		  <li>1 <?=lorem::get(6)?></li>
+		  <li><?=lorem::get(6)?></li>
 	</ul>
     <h3>Method	</h3>
-   <p><em>Lave la carne y déjela estilar. 
-     En una tabla de picar carne aplaste la pimienta
-con la ayuda de un uslero. Espolvoree sal a la carne y presione sobre la
-pimienta molida por ambos lados de modo que se impregne bien la pimienta.</em><br>	
- <p><em>Derrita la mantequilla y fría los bifes a fuego fuerte unos 5 minutos por
-lado. Dispóngalos en una fuente previamente calentada, vierta la crema y la
-mostaza en la mantequilla en que cocinó la carne, rectifique la sal y caliente
-sin hacer hervir la salsa. Mezcle bien y vacíe sobre la carne.</em><br>	
+   <p><em><?=lorem::get(26)?></em><br>
+ <p><em><?=lorem::get(26)?></em><br>
 <h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Pimienta Negra</p>
+			<p>Black pepper</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(6)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td><b>Portion</b></td>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td><b>Portion per serving</b></td>
-					<td>&nbsp;</td>
+					<td>Paper bags</td>
 				</tr>
 			</table>
 			<h3>NUTRICIONAL INFORMATION:</h3>
@@ -100,63 +86,63 @@ sin hacer hervir la salsa. Mezcle bien y vacíe sobre la carne.</em><br>
 				</tr>
 				<tr>
 					<td>Energy [Kcal.]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Protein [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Total Fat [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
-					<td> Ácidos Grasos Saturados[g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Saturated Fatty Acids[g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
-					<td>Ácidos Grasos Monoinsaturados [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Monounsaturated Fatty Acids [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                  <tr>
-					<td>Ácidos Grasos Poliinsaturados [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Polyunsaturated Fatty Acids [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
 					<td>Carbohydrates Available [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Sodium [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
 					<td>Dietary Fiber [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Calcium [mg]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Iron [mg]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Moisture [%]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 			</table>
 			<h2>Download</h2>
@@ -167,13 +153,13 @@ sin hacer hervir la salsa. Mezcle bien y vacíe sobre la carne.</em><br>
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

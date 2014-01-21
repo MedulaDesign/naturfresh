@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Alpiste &ndash; Alpiste &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Birdseed &ndash; Animal Feed &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>ALPISTE</h1>
-						<p>Semilla importada especialmente por NaturFresh desde Canadá para satisfacer las necesidades del mercado nacional. <br>
+						<h1>BIRDSEED</h1>
+						<p><?=lorem::get(16)?><br>
 					  </p>
 					</div>
 				</div>
@@ -45,33 +45,25 @@ include "_/inc/datos-globales.php";
 			<figure>
 				<img src="imgs/alpiste-150x205.jpg" alt="">
 				<figcaption>
-					Alpiste</figcaption>
-				<p class="vermas">cotizar</p>
+					Birdseed</figcaption>
+				<p class="vermas">quote</p>
 		  </figure>
-			<p class="bajada">Las semillas de alpiste de NaturFresh son altas en proteÍnas, en aceite como tambiÉn en almidÓn. </p>
-			<p>Alimento producido y envasado especialmente para aves.			</p>
+			<p class="bajada"><?=lorem::get(16)?></p>
+			<p><?=lorem::get(6)?></p>
 			<h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Alpiste</p>
+			<p>Birdseed</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(6)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td><b>Portion</b></td>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td><b>Portion per serving</b></td>
-					<td>&nbsp;</td>
+					<td>Bags of 50 Kg.</td>
 				</tr>
 			</table>
 			<h3>NUTRICIONAL INFORMATION:</h3>
 
-			<table>
+		<table>
 				<tr>
 					<th>Components</th>
 					<th>Amount per Serving</th>
@@ -79,63 +71,63 @@ include "_/inc/datos-globales.php";
 				</tr>
 				<tr>
 					<td>Energy [Kcal.]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Protein [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Total Fat [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
-					<td> Ácidos Grasos Saturados[g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Saturated Fatty Acids[g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
-					<td>Ácidos Grasos Monoinsaturados [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Monounsaturated Fatty Acids [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                  <tr>
-					<td>Ácidos Grasos Poliinsaturados [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Polyunsaturated Fatty Acids [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
 					<td>Carbohydrates Available [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Sodium [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
 					<td>Dietary Fiber [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Calcium [mg]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Iron [mg]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Moisture [%]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 			</table>
 			<h2>Download</h2>
@@ -146,13 +138,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

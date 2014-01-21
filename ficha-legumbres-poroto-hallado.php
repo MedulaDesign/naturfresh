@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Porotos Hallado &ndash; Porotos Hallado &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Hallado Beans &ndash; Legume &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>POROTO HALLADO</h1>
-						<p>Grano seco y limpio de color bayo con estrías, cosechado por NaturFresh en la Séptima Región. Envasado en bolsa de 1kg. y saco de 50 kg. <br></p>
+						<h1>HALLADO BEANS</h1>
+						<p><?=lorem::get(15)?><br></p>
 					</div>
 				</div>
 				<div class="muestraCategoria"><img src="imgs/porotorohallado546x232.jpg" alt="Poroto Hallado"></div>
@@ -42,40 +42,38 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/productos/bolsa-pororoshallado-150x205.jpg" alt="">
+				<img src="imgs/bag-150x205.jpg" alt="">
 				<figcaption>
-					Paquete de 1 Kg; <br>
-					Grado 2
+					Bag of 1 Kg; <br>
+					Grade 2
 				</figcaption>
-				<p class="vermas">cotizar</p>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Con un alto contenido en hierro, fibra, disminuye la tasa de colesterol y es componente fundamental de una alimentaciÓn saludable y una vida mÁs sana.<br>
+			<p class="bajada"><?=lorem::get(15)?><br>
 			</p>
-			<p>Legumbre ideal para guisos, sopas y como ensalada.</p>
-			<h2>Receta <br>
-  (Porotos al jugo /4 personas) </h2>
+			<p><?=lorem::get(8)?></p>
+			<h2>Recipe <br>
+  (Hallado beans with sausage /serves 4) </h2>
 <h3>Ingredients:</h3>
 <ul class= "ingredientes">
-		  <li>1 taza de porotos hallados remojados la noche anterior          </li>
-		  <li> 1/4 kg. de carne molida o picada		    </li>
-		  <li>2 sobres de salsa de tomates		    </li>
-		  <li>1 cebolla mediana		    </li>
-		  <li>2 tazas de arroz</li>
-		  <li> Sal, hojas de laurel y orégano a gusto</li>
-		 
+		  <li>1 <?=lorem::get(6)?></li>
+		  <li>1/4 kg. <?=lorem::get(4)?></li>
+		  <li>2 <?=lorem::get(4)?></li>
+		  <li>1 <?=lorem::get(2)?></li>
+		  <li>2 <?=lorem::get(2)?></li>
+		  <li><?=lorem::get(6)?></li>
+
 	</ul>
     <h3>Method	</h3>
-   <p><em>El primer paso es hacer un puré con los porotos blancos, luego páselos por un cedazo para sacar el hollejo que pueda quedar. <br>
-     Una vez listo el puré, agregue el resto de los ingredientes rectificando que haya quedado bien  mezclado y aliñado con la sal y la pimienta.<br>
-     Sirva con las papas fritas.</em><br><h2>Product Detail</h2>
+   <p><em><?=lorem::get(40)?></em><br><h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Poroto Hallado Alemán.</p>
+			<p>German Hallado Bean</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information: </b>Contenido neto NCh 1650/1-2 Of.84</p>
+			<p><b>Information: </b><?=lorem::get(5)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>1Kg - 10x1 - 20x1- Sacos de 50 Kg.(Polipropileno)</td>
+					<td>1Kg - 10x1 - 20x1- Bags of 50 Kg. (polypropylene)</td>
 				</tr>
 				<tr>
 					<td><b>Portion</b></td>
@@ -120,7 +118,7 @@ include "_/inc/datos-globales.php";
 					<td>3,1</td>
 				</tr>
                 <tr>
-					<td>Fibra Bruta [g]</td>
+					<td>Fiber Bruta [g]</td>
 					<td>2,9</td>
 					<td>4,9</td>
 				</tr>
@@ -153,13 +151,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

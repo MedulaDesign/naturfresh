@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Quienes Somos &ndash; <?php echo $nombreMarca; ?></title>
+	<title>About Us &ndash; <?php echo $nombreMarca; ?></title>
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
 	<meta name="Copyright" content="Copyright <?php echo $nombreMarca.' '.date('Y'); ?>. All Rights Reserved.">
 	<?php include "views/viewport-fav-setup.php"; ?>
@@ -20,7 +20,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-contenido">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='quienes';
 		include "views/header.php"; ?>
@@ -36,7 +36,7 @@ include "_/inc/datos-globales.php";
 				</div>
 				<div class="muestraCategoria"><img src="imgs/campo-546x232.jpg" alt="Paisaje de siembras de hierbas verdes."></div>
 			</header>
-			
+
 			<h2>Our History</h2>
 <p class="bajada">NaturFresh At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.<br>
 </p>
@@ -78,13 +78,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

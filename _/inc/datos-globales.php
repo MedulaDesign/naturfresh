@@ -1,8 +1,9 @@
-<?php 
+<?php
+require_once 'lorem.php';
 $autor = 'Médula Diseño';
 $webDelAutor = 'http://medula.cl/';
 $nombreMarca = 'NaturFresh';
-$sloganMarca = 'Porque llevamos el sabor de nuestro campo';
+$sloganMarca = 'We produce healthy food for your family';
 $codigoPostal = '1235887';
 $direccionFisica = '<span class="street-address">Guerneville 2569</span><br>
 <span class="postal-code" title="Código postal.">'.$codigoPostal.'</span> <span class="region">Renca</span> <br>

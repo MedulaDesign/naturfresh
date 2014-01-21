@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Canela &ndash; Canela &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Cinammon &ndash; Species &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-					  <h1>CANELA</h1>
-						<p>Especia extraída de la corteza interna del árbol de la canela. Viene en presentación en forma de tubos envasados en sacos de 50 kg.<br>
+					  <h1>Cinammon</h1>
+						<p><?=lorem::get(16)?><br>
 						</p>
 					</div>
 				</div>
@@ -45,46 +45,44 @@ include "_/inc/datos-globales.php";
 			<figure>
 				<img src="imgs/productos/canela-150x205.jpg" alt="">
 				<figcaption>
-					Canela
+					Cinammon
 				</figcaption>
-				<p class="vermas">cotizar</p>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">De apariencia sólida y seca, aroma fresco y un sabor delicado y dulce, la canela es ampliamente utilizada en repostería y cocina. Además es utilizado como medicamento  para la medicina natural para molestias gástricas e inflamatorias. <br>
+			<p class="bajada"><?=lorem::get(26)?><br>
 			</p>
-			<p>También es altamente recomendada consumirla como infusión.<br>
+			<p><?=lorem::get(6)?><br>
 			</p>
-			<h2>Receta <br>
-  (Crema de canela/4 personas) </h2>
+			<h2>Recipe <br>
+  (Cinammon cream/serves 4) </h2>
 <h3>Ingredients:</h3>
         <ul class= "ingredientes">
-		  <li>3 huevos</li>
-		  <li>1 taza de <a href="ficha-azucar.php">azúcar</a></li>
-		  <li>1 cucharadita de vainilla</li>
-		  <li>1 cucharada de <a href="ficha-frutos-secos-almendras.php">almendras</a> tostadas y molidas</li>
-		  <li>1 cucharada de canela en polvo</li>
+		  <li>3 <?=lorem::get(6)?></li>
+		  <li>1 <?=lorem::get(6)?></li>
+		  <li>1 <?=lorem::get(6)?></li>
+		  <li>1 <?=lorem::get(6)?></li>
+		  <li>1 <?=lorem::get(6)?></li>
 	</ul>
     <h3>Method	</h3>
-   <p><em>Bata las tres claras a punto merengue y agregue las yemas sin dejar de batir. Mezcle la preparación con el azúcar, vainilla. </em><em>Luego agregue la canela y las almendras. </em></p>
-   <p><em>Sirva en copas espolvoreadas de canela en polvo. </em><br>
+   <p><em><?=lorem::get(26)?></em><br>
  </p>
    </p>
  <h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Canela</p>
+			<p>Cinammon</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(6)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>Churlas (tubos completos) de canela en sacos 25 Kg.</td>
+					<td>Paper bags</td>
 				</tr>
 				<tr>
 
 				</tr>
 			</table>
 			<h3>NUTRICIONAL INFORMATION:</h3>
-
-			<table>
+<table>
 				<tr>
 					<th>Components</th>
 					<th>Amount per Serving</th>
@@ -92,63 +90,63 @@ include "_/inc/datos-globales.php";
 				</tr>
 				<tr>
 					<td>Energy [Kcal.]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Protein [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Total Fat [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
-					<td> Ácidos Grasos Saturados[g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Saturated Fatty Acids[g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
-					<td>Ácidos Grasos Monoinsaturados [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Monounsaturated Fatty Acids [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                  <tr>
-					<td>Ácidos Grasos Poliinsaturados [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Polyunsaturated Fatty Acids [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
 					<td>Carbohydrates Available [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Sodium [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
 					<td>Dietary Fiber [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Calcium [mg]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Iron [mg]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Moisture [%]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 			</table>
 			<h2>Download</h2>
@@ -159,13 +157,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

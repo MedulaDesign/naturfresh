@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Arroz Nacional &ndash;Arroz Nacional &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Rice Grade 1 &ndash; Rice &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>ARROZ</h1>
-						<p>Granos blancos de forma alargada y pulidos. NaturFresh los comercializa en formato de bolsa de 1kg. y saco de 50 kg. </p>
+						<h1>RICE</h1>
+						<p><?=lorem::get(15)?></p>
 					</div>
 				</div>
 				<div class="muestraCategoria"><img src="imgs/arroz2-546x232.jpg" alt="Arroz Nacional"></div>
@@ -43,50 +43,49 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/productos/bolsa-arroz-nacional-grado1-150x205.jpg" alt="">
+				<img src="imgs/bag-150x205.jpg" alt="">
 				<figcaption>
-				  Paquete de 1 Kg; <br>
-					Grado 1
+				  Bag of 1 Kg; <br>
+					Grade 1
 				</figcaption>
-				<p class="vermas">cotizar</p>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Consumido a nivel mundial, el arroz es el principal cereal en la dieta de las personas. Posee grandes propiedades energéticas no contiene colesterol, grasas y sodio.</p>
-			<p> El arroz puede ser utilizado como plato principal, en sopas, guisos incluso como ensalada.<br>
+			<p class="bajada"><?=lorem::get(25)?></p>
+			<p><?=lorem::get(10)?><br>
 			</p>
-			<h2>Receta <br>
-  (Risotto de champiñones/4 personas) </h2>
+			<h2>Recipe <br>
+  (Mushroom risotto/serves 4) </h2>
 <h3>Ingredients:
   <br>
 </h3>
 <ul class= "ingredientes">
-  <li>1 1/2 tazas de arroz</li>
-  <li>5 tazas caldo de verduras</li>
-  <li>1/2 taza de vino blanco</li>
-  <li>2 cucharadas de margarina</li>
-  <li>1 cucharada de aceite de oliva</li>
-  <li>1/4 taza de cebolla picada</li>
-  <li>1/8 taza de jamón picado</li>
-  <li>1 tomate pelado, picado y sin semillas</li>
-  <li>125 gr. de champiñones frescos picados</li>
-  <li>125 gr de champiñones secos, picados, remojados por 1/2 hora en agua</li>
-  <li>1/4 taza de queso parmesano</li>
-  <li>2 cucharada de perejil picado</li>
-  <li>sal y pimienta a gusto</li>
+  <li>1 1/2 <?=lorem::get(2)?></li>
+  <li>5 <?=lorem::get(3)?></li>
+  <li>1/2 <?=lorem::get(3)?></li>
+  <li>2 <?=lorem::get(3)?></li>
+  <li>1 <?=lorem::get(4)?></li>
+  <li>1/4 <?=lorem::get(4)?></li>
+  <li>1/8 <?=lorem::get(4)?></li>
+  <li>1 <?=lorem::get(8)?></li>
+  <li>125 gr. <?=lorem::get(4)?></li>
+  <li>125 gr <?=lorem::get(10)?></li>
+  <li>1/4 <?=lorem::get(4)?></li>
+  <li>2 <?=lorem::get(3)?></li>
 	</ul>
     <h3>Method	</h3>
-   <p><em>En una olla hierva el caldo con el vino. Fría la cebolla en mantequilla y aceite e  incorpore el jamón y los tomates; cocine un par de minutos. Agregue el arroz y un cucharón de caldo, revuelva todo el tiempo hasta que el caldo se absorba. Añada otro cucharón de caldo y así sucesivamente hasta que se haya incorporado la mitad del caldo. Agregue los champiñones y más caldo. 
+   <p><em><?=lorem::get(25)?>
    </em>
-   <p><em>Esta operación demora 20 minutos. Recordar que nunca hay que dejar de revolver la olla. Se sirve de inmediato, pero antes se le agrega el queso parmesano rallado y se mezcla bien. Al servir espolvoree un poco de perejil picado. 
+   <p><em><?=lorem::get(20)?>
    </em>
    <h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Arroz Nacional</p>
+			<p>Rice Grade 1</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b><?=lorem::get(5)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>1Kg - 10x1- Sacos de 50 Kg.(Polipropileno)</td>
+					<td>1Kg - 10x1- Bags of 50 Kg. (polypropylene)</td>
 				</tr>
 				<tr>
 					<td><b>Portion</b></td>
@@ -94,7 +93,7 @@ include "_/inc/datos-globales.php";
 				</tr>
 				<tr>
 					<td><b>Portion per serving</b></td>
-					<td>20 aprox</td>
+					<td>20 approx</td>
 				</tr>
 			</table>
 			<h3>NUTRICIONAL INFORMATION:</h3>
@@ -120,8 +119,8 @@ include "_/inc/datos-globales.php";
 					<td>0,4</td>
 					<td>0,8</td>
 				</tr>
-			
-                
+
+
           <tr>
 					<td>Carbohydrates Available [g]</td>
 					<td>39,9</td>
@@ -161,13 +160,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

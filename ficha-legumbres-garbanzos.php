@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Garbanzos &ndash; Garbanzos &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Chickpeas &ndash; Legume &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>GARBANZOS</h1>
-						<p>Cosechado por NaturFresh para cubrir las necesidades del mercado nacional. Envasado bajo estrictos controles de calidad e higiene que garantiza su sabor.<br>
+						<h1>CHICKPEAS</h1>
+						<p>NaturFresh interdum et malesuada fames ac ante ipsum primis in faucibus. Duis pulvinar bibendum.<br>
 						</p>
 					</div>
 				</div>
@@ -43,46 +43,48 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/productos/bolsa-garbanzos-150x205.jpg" alt="">
+				<img src="imgs/bag-150x205.jpg" alt="">
 				<figcaption>
-					Paquete de 1 Kg; <br>
-					Grado 2
+					Bag of 1 Kg; <br>
+					Grade 2
 				</figcaption>
-				<p class="vermas">cotizar</p>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Los garbanzos contienen una gran cantidad de nutrientes, vitaminas y minerales. Además poseen fibra dietÉtica, que ayuda a reducir los niveles de colesterol en la sangre. </p>
-			<p>Al cocinarlos se pueden combinar con arroz y también se pueden presentar en ensaladas, sopas y cremas.<br>
+			<p class="bajada">Mauris auctor neque id nibh rutrum posuere. Vivamus blandit magna ac venenatis consectetur. Nulla vel sapien porta, consequat lectus nec, iaculis nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquet augue id sapien hendrerit aliquet. Ut scelerisque scelerisque enim, ut elementum justo egestas eu.<br>
 			</p>
-			 <h2>Receta <br>
-  (Albóndigas de garbanzos/4 personas) </h2>
+			 <h2>Recipe<br>
+  (Chickpeas/serves 4) </h2>
 <h3>Ingredients:</h3>
         <ul class= "ingredientes">
-		  <li>2 tazas de garbanzos cocidos</li>
-		  <li>1/2 vaso de leche</li>
-		  <li>1 cebolla chica</li>
-		  <li>2 huevos</li>
-		  <li>2 dientes de ajo</li>
-		  <li>laurel <strong><a href="ficha-aceite-maravilla-maiz.php">aceite</a></strong>, agua, pan rallado,<strong><a href="ficha-especies-pimienta-negra.php">pimienta</a></strong>, sal, pan rallado</li>
+		  <li>1 Mauris ullamcorper ligula ut pharetra</li>
+		  <li>1/4 kg. Vivamus porttitor, augue id mattis</li>
+		  <li>1 Nullam malesuada augue et dictum.</li>
+		  <li>1/4 kg Praesent semper magna at quam.</li>
+		  <li>1 <?=lorem::get(4)?></li>
+		  <li>1 <?=lorem::get(2)?></li>
+		  <li>1 <?=lorem::get(1)?></li>
+		  <li>1/2 <?=lorem::get(5)?></li>
+		  <li>1 <?=lorem::get(2)?></li>
+		  <li><?=lorem::get(1)?></li>
+		  <li><?=lorem::get(4)?></li>
 	</ul>
     <h3>Method	</h3>
-   <p><em>Escurra y lave los garbanzos, colóquelos en un bol grande. Añada los
-huevos, la leche, pimienta a gusto, un diente de ajo y un poco de sal. Bata
-con la batidora hasta que se forme una pasta. Agregue pan rallado hasta que
-quede espesa para poder darle forma redondeada.
-.<br>
+   <p><em>Maecenas consectetur dui ac velit varius hendrerit a ut felis. Nullam sit amet tincidunt sapien. Curabitur ut neque commodo lorem molestie dignissim. Praesent enim quam, hendrerit consectetur magna nec, aliquet auctor eros. Maecenas tempus, metus eget euismod elementum, massa dui bibendum elit, sit amet lobortis risus leo ut justo. Quisque nec lectus a augue rutrum hendrerit. Donec sagittis id enim in ullamcorper. Fusce quis ipsum iaculis, pharetra velit non, vehicula nibh. Fusce a odio nibh. Pellentesque id eleifend odio. Vivamus dictum eleifend turpis. Donec a odio est. Praesent cursus iaculis vulputate. Vivamus egestas tempor quam sit amet fermentum.<br>
    </em></p>
        <p><em>
-Haga bolitas no muy grandes y rebóselas en un plato con harina. Luego
-dórelas en un sartén con aceite y échelas a una olla. Con el aceite restante fría la cebolla y un ajo en láminas. Cuando esté dorado vierta encima de las albóndiga, añada agua hasta que las cubra y una hoja de laurel. Rectifique la sal y deje cocer un cuarto de hora.</em><br>
-	  </p><h2>Product Detail</h2>
+Nulla justo elit, iaculis in molestie nec, fermentum at neque. Suspendisse potenti. Vivamus vehicula iaculis neque eu sollicitudin. Aenean mollis pretium felis, et porta dui egestas nec. Cras non mauris consequat, consectetur dui sit amet, feugiat diam. Praesent tellus nisl, dignissim accumsan leo sed, fringilla molestie leo. Praesent viverra sodales luctus.
+       </em>
+       <p>
+       <em><?=lorem::get(10)?></em><br></p>
+       <h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Garbanzo sin piel</p>
+			<p>Skinless Chickpeas</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(10)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>1Kg - 10x1 - 20x1- Sacos de 50 Kg.(Polipropileno)</td>
+					<td>1Kg - 10x1 - 20x1- Bags of 50 Kg. (polypropylene)</td>
 				</tr>
 				<tr>
 					<td><b>Portion</b></td>
@@ -103,63 +105,48 @@ dórelas en un sartén con aceite y échelas a una olla. Con el aceite restante 
 				</tr>
 				<tr>
 					<td>Energy [Kcal.]</td>
-					<td>182,4</td>
-					<td>304</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Protein [g]</td>
-					<td>11,2</td>
-					<td>18,7</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Total Fat [g]</td>
-					<td>2,9</td>
-					<td>4,9</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
-					<td> Ácidos Grasos Saturados[g]</td>
-					<td>0,4</td>
-					<td>0,6</td>
-				</tr>
-                <tr>
-					<td>Ácidos Grasos Monoinsaturados [g]</td>
-					<td>0,8</td>
-					<td>1,3</td>
-				</tr>
-                 <tr>
-					<td>Ácidos Grasos Poliinsaturados [g]</td>
-					<td>1,8</td>
-					<td>3,0</td>
-				</tr>
-                <tr>
 					<td>Carbohydrates Available [g]</td>
-					<td>28,0</td>
-					<td>46,6</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Sodium [g]</td>
-					<td>4,0</td>
-					<td>6,7</td>
-				</tr>
-                <tr>
-					<td>Dietary Fiber [g]</td>
-					<td>8,2</td>
-					<td>13,7</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
+					<td>Fiber Bruta [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+				</tr>
+                <tr>
 					<td>Calcium [mg]</td>
-					<td>1,8</td>
-					<td>134</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Iron [mg]</td>
-					<td>4,4</td>
-					<td>7,3</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Moisture [%]</td>
-					<td>11,5</td>
-					<td>11,5</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 			</table>
 			<h2>Download</h2>
@@ -170,13 +157,13 @@ dórelas en un sartén con aceite y échelas a una olla. Con el aceite restante 
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

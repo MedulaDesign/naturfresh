@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Arveja verde &ndash; Arveja verde &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Peas &ndash; Legume &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>ARVEJAS</h1>
-						<p>NaturFresh ofrece esta legumbre en presentación partida sin piel y de forma semiesférica en bolsa de 1 kg.</p>
+						<h1>PEAS</h1>
+						<p>NaturFresh <?=lorem::get(7)?></p>
 					</div>
 				</div>
 				<div class="muestraCategoria"><img src="imgs/arveja546x232.jpg" alt="Arvejas"></div>
@@ -42,45 +42,43 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/productos/bolsa-arveja-150x205.jpg" alt="">
+				<img src="imgs/bag-150x205.jpg" alt="">
 				<figcaption>
-					Paquete de 1 Kg; <br>
-					Grado 2
+					Bag of 1 Kg; <br>
+					Grade 2
 				</figcaption>
-				<p class="vermas">cotizar</p>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Granos ricos en proteínas vegetal y carbohidratos, bajos en grasa y constituyen una buena fuente de fibra, vitaminas. Imprescindibles en nuestra dieta nutritiva, ya que son estas mismas propiedades las que ayudan a nuestro metabolismo. Son ideales para regular y generar energía para la actividad física.<br>
+			<p class="bajada"><?=lorem::get(30)?><br>
 			</p>
-			<p>Ideal para sopas, guisos, cremas y ensaladas.<br>
+			<p><?=lorem::get(5)?><br>
 			  <br>
 			</p>
-            <h2>Receta <br>
-  (Crema de arvejitas /4 personas) </h2>
+            <h2>Recipe <br>
+  (Peas cream /serves 4) </h2>
 <h3>Ingredients:</h3>
         <ul class= "ingredientes">
-		  <li>2 tazas de arvejas</li>
-		  <li>2 tajadas de jamón</li>
-		  <li>1 1/2 taza de leche</li>
-		  <li>1 1/2 taza de agua</li>
-		  <li>3 cucharadas de queso rallado</li>
-		  <li>1/2 taza de crema</li>
+		  <li>2 <?=lorem::get(3)?></li>
+		  <li>2 <?=lorem::get(2)?></li>
+		  <li>1 1/2 <?=lorem::get(5)?></li>
+		  <li>1 1/2 <?=lorem::get(4)?></li>
+		  <li>3 <?=lorem::get(3)?></li>
+		  <li>1/2 <?=lorem::get(2)?></li>
 	</ul>
     <h3>Method	</h3>
-   <p><em>Remojar las arvejas la noche anterior. Al día siguiente bote el agua y cuézalas en agua caliente con sal a gusto. Una vez cocidas, licuarlas junto con la leche y un poco del agua de la cocción.</em></p>
+   <p><em><?=lorem::get(15)?></em></p>
        <p><em>
-Añada la crema y revuelva bien al calentar. Pique el jamón en trocitos
-y colóquelos en cada plato a servir. Deje caer la crema sobre el jamón y
-espolvoree queso rallado</em><br>
+<?=lorem::get(25)?></em><br>
 	  </p>
 			<h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Arveja verde partida sin piel.</p>
+			<p>Skinless green pea</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information: </b>Contenido neto NCh 1650/1-2 Of.84</p>
+			<p><b>Information: </b><?=lorem::get(5)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>1Kg - 10x1 - 20x1- Sacos de 50 Kg.(Polipropileno)</td>
+					<td>1Kg - 10x1 - 20x1- Bags of 50 Kg. (polypropylene)</td>
 				</tr>
 				<tr>
 					<td><b>Portion</b></td>
@@ -125,7 +123,7 @@ espolvoree queso rallado</em><br>
 					<td>6,4</td>
 				</tr>
                 <tr>
-					<td>Fibra Cruda [g]</td>
+					<td>Fiber Cruda [g]</td>
 					<td>2,4</td>
 					<td>4,0</td>
 				</tr>
@@ -158,13 +156,13 @@ espolvoree queso rallado</em><br>
 			<?php include "views/productos-lista.php"; ?>
 	  </nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

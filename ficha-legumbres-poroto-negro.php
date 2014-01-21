@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Porotos Negro &ndash; Porotos Negro &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Black Bens &ndash; Legume &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>POROTO NEGRO</h1>
-						<p>Cosechados desde los campos de la Séptima Región, NaturFresh ofrece este producto garantizando su frescura y sabor.
+						<h1>BLACK BEANS</h1>
+						<p>NaturFresh <?=lorem::get(15)?>
 				      <br></p>
 					</div>
 				</div>
@@ -43,41 +43,38 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/productos/bolsa-porotosnegros-150x205.jpg" alt="">
+				<img src="imgs/bag-150x205.jpg" alt="">
 				<figcaption>
-					Paquete de 1 Kg; <br>
-					Grado 2
+					Bag of 1 Kg; <br>
+					Grade 2
 				</figcaption>
-				<p class="vermas">cotizar</p>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada"> Altamente consumido en Centro y Sudamérica, su gran contenido de proteínas hace que sea una alternativa económica y saludable y alternativa de la carne. Recomendable para disminuir el colesterol no saludable y ayuda a asimilar el calcio.</p>
-			<p> Especial para guisos y ensaladas.<br>
+			<p class="bajada"> <?=lorem::get(30)?><br>
 			  <br>
 			</p>
-            <h2>Receta <br>
-  (Guiso de porotos negros /4 personas) </h2>
+            <h2>Recipe <br>
+  (Black beans stew /serves 4) </h2>
 <h3>Ingredients:</h3>
         <ul class= "ingredientes">
-		  <li>1 taza de porotos negros</li>
-		  <li>1 cebolla partida</li>
-		  <li>2 dientes de ajo picado</li>
-		  <li>2 calugas de caldo de carne</li>
-		  <li>3/4 taza de<strong> <a href="ficha-aceite-maravilla-maiz.php">aceite</a></strong></li>
+		  <li>1 <?=lorem::get(3)?></li>
+		  <li>1 <?=lorem::get(2)?></li>
+		  <li>2 <?=lorem::get(4)?></li>
+		  <li>2 <?=lorem::get(4)?></li>
+		  <li>3/4 <?=lorem::get(2)?></li>
 	</ul>
     <h3>Method	</h3>
-   <p><em>Lave los porotos y remoje por seis horas. Hierva tres litros de agua con sal y las calugas de caldo de carne. Vacíe los porotos y agregue la cebolla. <br>
-     Cocine en una olla tapada durante unos 45 minutos o hasta que estén blandos. Luego estílelos y vacíe en una olla previamente frotada con ajo machacado. Aliñe con sal a gusto.</em><br>
-     <br>
+   <p><em><?=lorem::get(30)?></em><br>
 	  </p>
 			<h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Poroto Negro</p>
+			<p>Black Bean</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information: </b>Contenido neto NCh 1650/1-2 Of.84</p>
+			<p><b>Information: </b><?=lorem::get(5)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>1Kg - 10x1 - 20x1- Sacos de 50 Kg.(Polipropileno)</td>
+					<td>1Kg - 10x1 - 20x1- Bags of 50 Kg. (polypropylene)</td>
 				</tr>
 				<tr>
 					<td><b>Portion</b></td>
@@ -131,7 +128,7 @@ include "_/inc/datos-globales.php";
 					<td>4,4</td>
 					<td>7,3</td>
 				</tr>
-               
+
 				<tr>
 					<td>Moisture [%]</td>
 					<td>13,3</td>
@@ -146,13 +143,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Arroz Improtado &ndash;Arroz Improtado &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Rice Imported Grade 2 &ndash; Rice &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>ARROZ</h1>
-						<p>Grano blanco de forma alargada proveniente de la planta del arroz. Importado especialmente por NaturFresh para satisfacer la demanda interna. </p>
+						<h1>RICE</h1>
+						<p><?=lorem::get(15)?></p>
 					</div>
 				</div>
 				<div class="muestraCategoria"><img src="imgs/arroz2-546x232.jpg" alt="Arroz Improtado"></div>
@@ -42,25 +42,25 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/productos/bolsa-arroz-importado-grado2-150x205.jpg" alt="">
+				<img src="imgs/bag-150x205.jpg" alt="">
 				<figcaption>
-			    Paquete de 1 Kg; <br>
-					Grado 2
+			    Bag of 1 Kg; <br>
+					Grade 2
 				</figcaption>
-				<p class="vermas">cotizar</p>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada"> El arroz es uno de los cereales que se cultiva y consume en casi todo el mundo,  es reconocido por ser un alimento muy sano y nutritivo. Contiene cualidades e indispensable en la dieta diaria pues no contiene colesterol, grasa y sodio.<br>
+			<p class="bajada"><?=lorem::get(25)?></p>
+			<p><?=lorem::get(10)?><br>
 			</p>
-			<p>El arroz es altamente consumido como acompañamiento y tiene un sinfín de recetas de cocina.</p>
 			<h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Arroz Importado Grado 2</p>
+			<p>Rice Imported Grade 2</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(5)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>1Kg - 10x1 - 20x1 Sacos de 50 Kg.(Polipropileno)</td>
+					<td>1Kg - 10x1 - 20x1 Sacos de 50 Kg. (polypropylene)</td>
 				</tr>
 				<tr>
 					<td><b>Portion</b></td>
@@ -68,7 +68,7 @@ include "_/inc/datos-globales.php";
 				</tr>
 				<tr>
 					<td><b>Portion per serving</b></td>
-					<td>20 aprox</td>
+					<td>20 approx</td>
 				</tr>
 			</table>
 			<h3>NUTRICIONAL INFORMATION:</h3>
@@ -94,8 +94,8 @@ include "_/inc/datos-globales.php";
 					<td>0,3</td>
 					<td>0,6</td>
 				</tr>
-			
-                
+
+
                 <tr>
 					<td>Carbohydrates Available [g]</td>
 					<td>40,8</td>
@@ -135,13 +135,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

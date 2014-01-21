@@ -22,24 +22,24 @@ include "_/inc/datos-globales.php";
 <div class="amictus">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php include "views/header.php"; ?>
 	</header>
-	
+
 	<div class="corporis">
 			<article class="slogan">
-					<h1>Porque llevamos el sabor desde LongavÍ hasta su mesa.</h1>
-					<p>Nuestros productos destacan por su alta calidad nutricional y de sabor. Exportamos desde nuestros campos al mundo.</p>
+					<h1>We produce healthy food for your family.</h1>
+					<p>Sed dui quam, ornare sed tempus a, porttitor non augue. Duis vel odio ante. Etiam lorem sapien, aliquam.</p>
 				</article>
-				
+
 		<div class="articleList acorta1h">
 		<article class="categoria porotos"><a href="ficha-legumbres-poroto-blanco.php">
-						<h1>POROTOS</h1>
-						<p>Cuatro variedades de esta legumbre. Gran aporte energético y nutricional</p>
-						<p class="vermas">ver</p>
+						<h1>BEANS</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent.</p>
+						<p class="vermas">more</p>
 					</a>
 				</article>
-				
+
 				<figure class="categoria porotos doble dobleVertical">
 			  <div data-picture data-alt="Porotos">
 				        <div data-src="imgs/porotos_480x198.jpg"></div>
@@ -50,7 +50,7 @@ include "_/inc/datos-globales.php";
 				        </noscript>
 				    </div>
 				</figure>
-				
+
 				<figure class="categoria">
 					<div data-picture data-alt="Arvejas">
 				        <div data-src="imgs/arvejas_480x198.jpg"></div>
@@ -61,23 +61,23 @@ include "_/inc/datos-globales.php";
 				        </noscript>
 				    </div>
 				</figure>
-				
+
 				<article class="categoria arvejas mas1h menos1w"><a href="ficha-legumbres-arvejas.php">
-						<h1>ARVEJAS</h1>
-						<p>Perteneciente al grupo de las legumbres. Vienen presentadas  en un envase de 1 kg. y saco de 50 kg.<br>
-						</p> 
-						<p class="vermas">ver</p>
-					</a>
-				</article>
-				
-				<article class="categoria garbanzo menos1h mas1w"><a href="ficha-legumbres-garbanzos.php">
-		<h1>GARBANZOS</h1>
-						<p>Disponible y envasadas en bolsa de 1kg. y en saco de 50 kg. <br>
+						<h1>PEAS</h1>
+						<p>Nulla neque ligula, ornare in felis sed, sodales malesuada.<br>
 						</p>
-						<p class="vermas">ver</p>
+						<p class="vermas">more</p>
 					</a>
 				</article>
-				
+
+				<article class="categoria garbanzo menos1h mas1w"><a href="ficha-legumbres-garbanzos.php">
+		<h1>CHICKPEAS</h1>
+						<p>Maecenas tincidunt pellentesque augue, in consectetur diam pharetra ut.<br>
+						</p>
+						<p class="vermas">more</p>
+					</a>
+				</article>
+
 				<figure class="categoria dobleVertical">
 			  <div data-picture data-alt="Garbanzos">
 				        <div data-src="imgs/garbanzos_480x198.jpg"></div>
@@ -88,15 +88,15 @@ include "_/inc/datos-globales.php";
 				        </noscript>
 				    </div>
 				</figure>
-				
+
 				<!--<article class="categoria aceite"><a href="#">
 						<h1>ACEITE</h1>
 						<p>Extraído de diversas semillas el aceite vegetal es hoy un elemento indispensable en la cocina. Usado con sabiduría es un gran aporte nutricional.</p>
-						<p class="vermas">ver</p>
+						<p class="vermas">more</p>
 					</a>
 					<img src="imgs/porotos-lo.jpg" alt="Porotos">
 				</article>-->
-				
+
 				<figure class="categoria menos1h">
 					<div data-picture data-alt="Piña en cconserva.">
 				        <div data-src="imgs/conservas_480x198.jpg"></div>
@@ -107,14 +107,14 @@ include "_/inc/datos-globales.php";
 				        </noscript>
 				    </div>
 				</figure>
-				
+
 				<article class="categoria conservas menos1h"><a href="ficha-conserva-pina-rodajas.php">
-						<h1>CONSERVAS</h1>
-						<p>Cinco variedades de alimentos divididos en pescados, frutas y vegetales.</p>
-						<p class="vermas">ver</p>
+						<h1>CANNED</h1>
+						<p>Sed euismod mattis erat sit amet sagittis. Etiam tincidunt.</p>
+						<p class="vermas">more</p>
 					</a>
 				</article>
-				
+
 				<figure class="categoria menos1h aceite">
 			  <div data-picture data-alt="Aceite">
 				        <div data-src="imgs/aceite_480x198.jpg"></div>
@@ -128,13 +128,13 @@ include "_/inc/datos-globales.php";
 			</div>
 	</div>
 
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

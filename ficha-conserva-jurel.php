@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Jurel al natural. &ndash;Jurel al natural. &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Mackerel &ndash; Canned &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>JUREL</h1>
-						<p>Conserva de jurel en agua y sal, producto importado por NaturFresh para ser comercializado en los mercados nacionales. </div>
+						<h1>Mackerel</h1>
+						<p><?=lorem::get(15)?></div>
 		    </div>
 				<div class="muestraCategoria"><img src="imgs/jurel546x232.jpg" alt="Jurel al natural."></div>
 			</header>
@@ -43,52 +43,52 @@ include "_/inc/datos-globales.php";
 			<figure>
 				<img src="imgs/productos/lata-jurel-150x205.jpg" alt="">
 				<figcaption>
-					Jurel al natural<br>
+					Meckerel<br>
 				</figcaption>
-			<p class="vermas">cotizar</p>
+			<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Alimento rico en vitaminas y minerales. El yodo que se encuentra en este pescado es beneficioso para el metabolismo, regula el nivel de energía y el correcto funcionamiento de las cÉlulas.</p>
-			<p class="bajada"> Su alta cantidad de vitamina D del jurel hace que el consumo de este pescado sea recomendable para fortalecer la piel y los huesos. <br>
+			<p class="bajada"><?=lorem::get(15)?></p>
+			<p class="bajada"><?=lorem::get(15)?><br>
 		  </p>
-		  <p>Ideal para ensaladas y guisos.</p>
-			<h2>Receta <br>
-  (Budín de jurel de tarro/4 personas) </h2>
+		  <p><?=lorem::get(5)?></p>
+			<h2>Recipe <br>
+  (Mackerel pudding/serves 4) </h2>
 <h3>Ingredients:</h3>
         <ul class= "ingredientes">
-		  <li>1 conserva de jurel </li>
-		  <li>1/2 pimentón de verde y rojo</li>
-		  <li>2 cucharadas de perejil</li>
-		  <li>6 huevos</li>
-		  <li>1 taza de pan rallado</li>
-		  <li>1 cebolla</li>
-		  <li>aceite y ajo</li>
-		  <li>sal y pimienta a gusto</li>
-		  <li>queso laminado</li>
+		  <li>1 <?=lorem::get(5)?></li>
+		  <li>1/2 <?=lorem::get(5)?></li>
+		  <li>2 <?=lorem::get(5)?></li>
+		  <li>6 <?=lorem::get(5)?></li>
+		  <li>1 <?=lorem::get(5)?></li>
+		  <li>1 <?=lorem::get(5)?></li>
+		  <li><?=lorem::get(5)?></li>
+		  <li><?=lorem::get(5)?></li>
+		  <li><?=lorem::get(5)?></li>
 	</ul>
     <h3>Method	</h3>
-   <p><em>Fría la cebolla picada muy fina con sal, ajo y la pimienta, cuando esté lista en un bol agregue todos los ingredientes con el jurel previamente limpio (sin las espinas).<br>
+   <p><em><?=lorem::get(15)?><br>
      <br>
-     Enmantequillar un molde y agregar la mezcla intercalando con capas de queso. Al final espolvoree queso rallado a gusto y lleve al horno caliente por unos 15 minutos. Se puede servir caliente o frío.<br>
-   </em><br>       
+     <?=lorem::get(15)?><br>
+   </em><br>
    </p>
 <h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Jurel al natural.</p>
+			<p>Mackerel</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(5)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>Lata jurel al natural</td>
+					<td>Mackerel can</td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><b>Peso Neto</b></td>
+					<td><b>Net weigth</b></td>
 					<td>425g</td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><b>Peso Drenado</b></td>
+					<td><b>Drained weight</b></td>
 					<td>255g</td>
 					<td>&nbsp;</td>
 				</tr>
@@ -97,8 +97,8 @@ include "_/inc/datos-globales.php";
 					<td>70g</td>
 					<td>&nbsp;</td>
 				</tr> <tr>
-					<td><b>Portion por envase</b></td>
-					<td>3 aprox</td>
+					<td><b>Portion per serving</b></td>
+					<td>3 approx</td>
 					<td>&nbsp;</td>
 				</tr>
 			</table>
@@ -126,17 +126,17 @@ include "_/inc/datos-globales.php";
 					<td>4,3</td>
 				</tr>
 				<tr>
-					<td> Grasa Saturada[g]</td>
+					<td>Saturated Fats[g]</td>
 					<td>1,1</td>
 					<td>1,5</td>
-				
+
                 <tr>
-					<td>Grasas Monoinsaturadas [g]</td>
+					<td>Monounsaturated Fats [g]</td>
 					<td>1,0</td>
 					<td>1,3</td>
 				</tr>
                  <tr>
-					<td>Grasas Poliinsaturadas [g]</td>
+					<td>Polyunsaturated Fats [g]</td>
 					<td>1,0</td>
 					<td>1,4</td>
 				</tr>
@@ -155,10 +155,6 @@ include "_/inc/datos-globales.php";
 					<td>150</td>
 					<td>214</td>
 				</tr>
-               
-				
-				
-				
 			</table>
 			<h2>Download</h2>
 			<p><a class="boton" href="#">Download Specifications</a></p>
@@ -168,13 +164,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 	  </nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

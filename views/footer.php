@@ -12,18 +12,18 @@
 			<hr>
 			<p class="adr"><?php echo $direccionFisica; ?></p>
 			<hr>
-			<p class="verEnMaps"><a href="http://goo.gl/maps/SOcyr" title="ver ubicación en Google maps" target="_blank">View in  Google maps</a></p>
+			<p class="verEnMaps"><a href="http://goo.gl/maps/SOcyr" title="ver ubicación en Google maps" target="_blank">View in Google maps</a></p>
 		</div>
 		<div class="grupo telefonos">
 			<p class="telefono">
 			  <span>Phones:</span><br>
 				<?php echo $telefono; ?> &ndash;
-				<a href="tel:+56226542820">(53-2) 28362820</a>
+				<a href="tel:+14082895817">(1) 408-289-5817</a>
 			</p>
 			<p class="telefono tel">
-				<span class="type">Fax</span><span>:</span><br> 
-				<a href="tel:+56226542890" class="value">(53-2) 26525890</a> &ndash;
-				<a href="tel:+56226542891">(53-2) </a><a href="tel:+56226542890" class="value">26525890</a>
+				<span class="type">Fax</span><span>:</span><br>
+				<a href="tel:+16412515665" class="value">(1) 641-251-5665</a> &ndash;
+				<a href="tel:+18479913882">(1) </a><a href="tel:+18479913882" class="value">847-991-3882</a>
 			</p>
 		  <hr>
 			<h2>Email:</h2>

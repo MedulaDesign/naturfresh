@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Palmitos &ndash;Palmitos &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Palm Heart &ndash; Canned &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -33,7 +33,7 @@ include "_/inc/datos-globales.php";
 				<div class="caluga verde">
 					<div class="tipoA">
 						<h1>PALMITOS</h1>
-						<p>NaturFresh tiene disponible palmitos enteros envasados herméticamente en conservadas garantizando su sabor y calidad nutricional. <br>
+						<p>NaturFresh <?=lorem::get(14)?><br>
 					  </div>
 				</div>
 				<div class="muestraCategoria"><img src="imgs/palmitos546x232.jpg" alt="Palmitos"></div>
@@ -44,42 +44,41 @@ include "_/inc/datos-globales.php";
 			<figure>
 				<img src="imgs/productos/lata-pina-palmitos-150x205.jpg" alt="">
 				<figcaption>
-					Palmitos</figcaption>
-				<p class="vermas">cotizar</p>
+					Palm Heart</figcaption>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Poseen grandes propiedades alimenticias, pues es un vegetal con jugosa textura ideal y un enorme aporte en fibra, aumentando el nivel de saciedad en los platos livianos. AdemÁs por el mismo motivo, se activa el tránsito intestinal y mejora el control de las tasas de colesterol y de azÚcar. <br>
+			<p class="bajada"><?=lorem::get(20)?><br>
 			</p>
-			<p> Acompañante ideal para ensaladas, entradas y platos livianos en calorías.</p>
-			<h2>Receta <br>
-  (Ensalada de palmitos/4 personas) </h2>
+			<p> <?=lorem::get(7)?></p>
+			<h2>Recipe <br>
+  (Palm heart salad/serves 4) </h2>
 <h3>Ingredients:</h3>
         <ul class= "ingredientes">
-		  <li>1 conserva de palmitos </li>
-		  <li>1/4 de aceitunas negras</li>
-		  <li>1 lechuga</li>
-		  <li>aceite y sal a gusto</li>
+		  <li>1 <?=lorem::get(5)?></li>
+		  <li>1/4 <?=lorem::get(5)?></li>
+		  <li>1 <?=lorem::get(1)?></li>
+		  <li><?=lorem::get(5)?></li>
 	</ul>
     <h3>Method	</h3>
-   <p><em>Corte los palmitos en rodajas, agregue la lechuga y las aceitunas picadas. <br>
-     Aliñe con sal y aceite a gusto.</em><br>	
+   <p><em><?=lorem::get(17)?></em><br>
    <h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Corazones de Palmito Enteros</p>
+			<p>Canned Palm Heart</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(5)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>Lata corazones de palmitos enteros</td>
+					<td>Palm Heart can</td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><b>Peso Neto</b></td>
+					<td><b>Net weigth</b></td>
 					<td>400 gr</td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><b>Peso Drenado</b></td>
+					<td><b>Drained weight</b></td>
 					<td>220 gr</td>
 					<td>&nbsp;</td>
 				</tr>	<tr>
@@ -88,7 +87,7 @@ include "_/inc/datos-globales.php";
 					<td>&nbsp;</td>
 				</tr>	<tr>
 					<td><b>Portion por envace</b></td>
-					<td>2 aprox.</td>
+					<td>2 approx.</td>
 					<td>&nbsp;</td>
 				</tr>
 			</table>
@@ -102,52 +101,46 @@ include "_/inc/datos-globales.php";
 				</tr>
 				<tr>
 					<td>Energy [Kcal.]</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 					<td>40</td>
 				</tr>
 				<tr>
 					<td>Protein [g]</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 					<td>3</td>
 				</tr>
 				<tr>
 					<td>Total Fat [g]</td>
-					<td>&nbsp;</td>
-					<td>
-0,00
-
-</td>
+					<td>0,0</td>
+					<td>0,0</td>
 				</tr>
-			
-                	
-                <tr>
-					<td>Grasas Monoinsaturadas [g]</td>
-					<td>&nbsp;</td>
-					<td>
-0,00
 
-</td>
+
+                <tr>
+					<td>Monounsaturated Fats [g]</td>
+					<td>0,0</td>
+					<td>0,00</td>
 				</tr>
                  <tr>
-					<td>Grasas Poliinsaturadas [g]</td>
-					<td>&nbsp;</td>
+					<td>Polyunsaturated Fats [g]</td>
+					<td>0,0</td>
 					<td>0,00 </td>
 				</tr>
-              
+
                 <tr>
-					<td>Hidratos de Carbono [g]</td>
-					<td>&nbsp;</td>
+					<td>Carbohydrates [g]</td>
+					<td>3</td>
 					<td>6</td>
 				</tr>
 				<tr>
 					<td>Sodium [g]</td>
-					<td>&nbsp;</td>
+					<td>101</td>
 					<td>231</td>
 				</tr>
-                
-				
-				
-				
+
+
+
+
 			</table>
       <h2>Download</h2>
 			<p><a class="boton" href="#">Download Specifications</a></p>
@@ -157,13 +150,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

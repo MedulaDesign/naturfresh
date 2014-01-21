@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Orégano &ndash; Orégano &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Oregano &ndash; Species &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>ORÉGANO</h1>
-						<p>Hierba aromática muy utilizada en la cocina. Las hojas de esta planta se utilizan como condimento tanto secas como frescas, aunque secas poseen mucho más sabor y aroma.</p>
+						<h1>OREGANO</h1>
+						<p><?=lorem::get(15)?></p>
 					</div>
 				</div>
 				<div class="muestraCategoria"><img src="imgs/oregano-546x232.jpg" alt="Orégano"></div>
@@ -44,47 +44,37 @@ include "_/inc/datos-globales.php";
 			<figure>
 				<img src="imgs/productos/oregano-150x205.jpg" alt="">
 				<figcaption>
-					Orégano</figcaption>
-			<p class="vermas">cotizar</p>
+					Oregano</figcaption>
+			<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Es un condimento indispensable en la comida. Dentro de sus propiedades, el orÉgano tiene diversos usos, ya sea como extracto, infusión, aceite esencial o tinturas. Debido a las propiedades digestivas, el orÉgano facilita los procesos de digestiÓn y es muy útil para tratar casos de estreÑimiento.<br>
+			<p class="bajada"><?=lorem::get(20)?><br>
 			</p>
-			<p>Las hojas de orégano secas proporcionan más gusto y aroma.<br>
+			<p><?=lorem::get(6)?><br>
 			</p>
-			<h2>Receta <br>
-  (Papas con orégano/4 personas) </h2>
+			<h2>Recipe <br>
+  (Potatos with oregano/serves 4) </h2>
 <h3>Ingredients:</h3>
 <ul class= "ingredientes">
-		  <li>4 papas grandes</li>
-		  <li>125 g. de mantequilla</li>
-		  <li>2 cucharadas de orégano</li>
-		  <li>1 cucharada de albahaca seca</li>
-		  <li>4 cucharadas de sal</li>
-		  <li>2 tiras de tocino</li>
+		  <li>4 <?=lorem::get(6)?></li>
+		  <li>125 g. <?=lorem::get(6)?></li>
+		  <li>2 <?=lorem::get(6)?></li>
+		  <li>1 <?=lorem::get(6)?></li>
+		  <li>4 <?=lorem::get(6)?></li>
+		  <li>2 <?=lorem::get(6)?></li>
 	</ul>
     <h3>Method	</h3>
-   <p><em>Coloque las papas en agua con sal a fuego lento hasta que estén bien cocidas. Pélelas y deje que se enfríen, córtelas en cubos. </em><br>	
- <p><em>En un sartén colocar el tocino en trocitos y dejar freír un poco, agregue la mantequilla y una
-vez derretida eche las papas, deje freír un poco y ponga el orégano y la albahaca sobre las
-papas.</em><br>
- 
+   <p><em><?=lorem::get(16)?></em><br>
+ <p><em><?=lorem::get(16)?></em><br>
+
  <h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>&nbsp;</p>
+			<p>Oregano</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(5)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td><b>Portion</b></td>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td><b>Portion per serving</b></td>
-					<td>&nbsp;</td>
+					<td>Papers bags</td>
 				</tr>
 			</table>
 			<h3>NUTRICIONAL INFORMATION:</h3>
@@ -97,63 +87,63 @@ papas.</em><br>
 				</tr>
 				<tr>
 					<td>Energy [Kcal.]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Protein [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Total Fat [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
-					<td> Ácidos Grasos Saturados[g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Saturated Fatty Acids[g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
-					<td>Ácidos Grasos Monoinsaturados [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Monounsaturated Fatty Acids [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                  <tr>
-					<td>Ácidos Grasos Poliinsaturados [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Polyunsaturated Fatty Acids [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
 					<td>Carbohydrates Available [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Sodium [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
 					<td>Dietary Fiber [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Calcium [mg]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Iron [mg]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Moisture [%]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 			</table>
 		  <h2>Download</h2>
@@ -164,13 +154,13 @@ papas.</em><br>
 			<?php include "views/productos-lista.php"; ?>
 	  </nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

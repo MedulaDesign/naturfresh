@@ -9,44 +9,44 @@
 			</header>
 		<ul class="listaProductos">
 			<li><a href="ficha-alimentoanimal-alpiste.php">
-					<h3>ALPISTE</h3>
+					<h3>Birdseed</h3>
 					<p>&nbsp;</p>
 					<img src="imgs/productos/alpiste-94x128.jpg">
-					<p class="vermas">ver ficha</p>
+					<p class="vermas">more info</p>
 				</a></li>
 			<li><a href="ficha-alimentoanimal-mijo.php">
-					<h3>MIJO</h3>
+					<h3>Millet</h3>
 					<p>&nbsp;</p>
 					<img src="imgs/productos/mijo-94x128.jpg">
-					<p class="vermas">ver ficha</p>
+					<p class="vermas">more info</p>
 				</a></li>
 		</ul>
 	<footer>
-			<h2>OTHER PRODUCTS</h2>
+			<h2>Other Products</h2>
 			<ul class="listaProductos otrosProductos">
 				<li><a href="ficha-aceite-maravilla-maiz.php">
 						<h3>SUNFLOWER OIL</h3>
-						<p>1 Litro</p>
-						<img src="imgs/productos/aceite-maravilla-botella.jpg" alt="">
-						<p class="vermas">ver ficha</p>
+						<p>1 Liter</p>
+						<img src="imgs/oil-94x128.jpg" alt="">
+						<p class="vermas">more info</p>
 					</a></li>
 				<li><a href="ficha-especies-oregano.php">
-						<h3>ORÉGANO</h3>
+						<h3>OREGANO</h3>
 						<p>&nbsp;</p>
-						<img src="imgs/productos/sinfotos-94x128.jpg" alt="">
-						<p class="vermas">ver ficha</p>
+						<img src="imgs/oregano-94x128.jpg" alt="">
+						<p class="vermas">more info</p>
 					</a></li>
 				<li><a href="ficha-especies-pimienta-negra.php">
-						<h3>BLACK PEPPER</h3>
+						<h3>PEPPER</h3>
 						<p>&nbsp;</p>
-						<img src="imgs/productos/sinfotos-94x128.jpg" alt="">
-						<p class="vermas">ver ficha</p>
+						<img src="imgs/oregano-94x128.jpg" alt="">
+						<p class="vermas">more info</p>
 					</a></li>
 				<li><a href="ficha-frutos-secos-ciruelas.php">
-						<h3>DRIED PLUMS</h3>
+						<h3>PRUNES</h3>
 						<p>&nbsp;</p>
-						<img src="imgs/productos/sinfotos-94x128.jpg" alt="">
-						<p class="vermas">ver ficha</p>
+						<img src="imgs/oregano-94x128.jpg" alt="">
+						<p class="vermas">more info</p>
 					</a></li>
 			</ul>
 		</footer>

@@ -1,65 +1,64 @@
 <header>
 				<div class="caluga grisClaro">
 					<div class="tipoA">
-						<h1>FRUTOS SECOS</h1>
-						<p>Cuatro alimentos tratados para mantener su calidad en sabor y contextura con grandes beneficios para la salud. 
-</p>
+						<h1>Dried Fruit</h1>
+						<p><?=lorem::get(17)?></p>
 					</div>
 				</div>
 				<div class="muestraCategoria"><img src="imgs/frutos-secos-546x232.jpg" alt="Porotos negros y otras legumbres."></div>
 			</header>
 		<ul class="listaProductos">
 			<li><a href="ficha-frutos-secos-pasas.php">
-					<h3>PASAS</h3>
+					<h3>Raisins</h3>
 					<p>&nbsp;</p>
-					<img src="imgs/productos/sinfotos-94x128.jpg">
-					<p class="vermas">ver ficha</p>
+					<img src="imgs/pasas-94x128.jpg">
+					<p class="vermas">more info</p>
 				</a></li>
 			<li><a href="ficha-frutos-secos-ciruelas.php">
-					<h3>CIRUELAS</h3>
+					<h3>Plums</h3>
 					<p>&nbsp;</p>
-					<img src="imgs/productos/sinfotos-94x128.jpg">
-					<p class="vermas">ver ficha</p>
+					<img src="imgs/prunes-94x128.jpg">
+					<p class="vermas">more info</p>
 				</a></li>
 			<li><a href="ficha-frutos-secos-nueces.php">
-					<h3>NUECES</h3>
+					<h3>Nuts</h3>
 					<p>&nbsp;</p>
-					<img src="imgs/productos/sinfotos-94x128.jpg">
-					<p class="vermas">ver ficha</p>
+					<img src="imgs/nuts-94x128.jpg">
+					<p class="vermas">more info</p>
 				</a></li>
 			<li><a href="ficha-frutos-secos-almendras.php">
-					<h3>ALMENDRAS</h3>
+					<h3>Almonds</h3>
 					<p>&nbsp;</p>
-					<img src="imgs/productos/sinfotos-94x128.jpg">
-					<p class="vermas">ver ficha</p>
+					<img src="imgs/almonds-94x128.jpg">
+					<p class="vermas">more info</p>
 				</a></li>
 		</ul>
-		<footer>
-			<h2>Otros Productos</h2>
+<footer>
+			<h2>Other Products</h2>
 			<ul class="listaProductos otrosProductos">
 				<li><a href="ficha-aceite-maravilla-maiz.php">
-						<h3>ACEITE  MARAVILLA</h3>
-						<p>1 Litro</p>
-						<img src="imgs/productos/aceite-maravilla-botella.jpg" alt="">
-						<p class="vermas">ver ficha</p>
+						<h3>SUNFLOWER OIL</h3>
+						<p>1 Liter</p>
+						<img src="imgs/oil-94x128.jpg" alt="">
+						<p class="vermas">more info</p>
 					</a></li>
 				<li><a href="ficha-especies-oregano.php">
-						<h3>ORÉGANO</h3>
+						<h3>OREGANO</h3>
 						<p>&nbsp;</p>
-						<img src="imgs/productos/sinfotos-94x128.jpg" alt="">
-						<p class="vermas">ver ficha</p>
+						<img src="imgs/oregano-94x128.jpg" alt="">
+						<p class="vermas">more info</p>
 					</a></li>
 				<li><a href="ficha-especies-pimienta-negra.php">
-						<h3>PIMIENTA</h3>
+						<h3>PEPPER</h3>
 						<p>&nbsp;</p>
-						<img src="imgs/productos/sinfotos-94x128.jpg" alt="">
-						<p class="vermas">ver ficha</p>
+						<img src="imgs/pepper-94x128.jpg" alt="">
+						<p class="vermas">more info</p>
 					</a></li>
 				<li><a href="ficha-frutos-secos-ciruelas.php">
-						<h3>CIRUELAS SECAS</h3>
+						<h3>PRUNES</h3>
 						<p>&nbsp;</p>
-						<img src="imgs/productos/sinfotos-94x128.jpg" alt="">
-						<p class="vermas">ver ficha</p>
+						<img src="imgs/prunes-94x128.jpg" alt="">
+						<p class="vermas">more info</p>
 					</a></li>
 			</ul>
 		</footer>

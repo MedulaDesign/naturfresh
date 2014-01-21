@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Piñas Rodajas &ndash;Piñas Rodajas  &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Sliced Pineapples &ndash; Canned  &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>PIÑA RODAJAS</h1>
-						<p>Piñas en almíbar presentadas en rodajas con las cuales NaturFresh satisface las necesidades del mercado interno. <br>
+						<h1>SLICED PINEAPPLES</h1>
+						<p><?=lorem::get(16)?><br>
 				  </div>
 				</div>
 				<div class="muestraCategoria"><img src="imgs/pina546x232.jpg" alt="Piña Rodajas"></div>
@@ -44,57 +44,57 @@ include "_/inc/datos-globales.php";
 			<figure>
 				<img src="imgs/productos/lata-pina-rodajas-150x205.jpg" alt="">
 				<figcaption>
-					Piñas en rodajas</figcaption>
-				<p class="vermas">cotizar</p>
+					Sliced pineapples</figcaption>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Es una de las frutas tropicales más consumida. Aporta nutrientes, vitaminas y fibras beneficiosas para la salud. <br>
+			<p class="bajada"><?=lorem::get(15)?><br>
 			</p>
-			<p>La presentación en conserva es ideal para la elaboración de jugos, postres, tortas y pasteles.<br>
+			<p><?=lorem::get(7)?><br>
 			</p>
-			<h2>Receta <br>
-  (Torta de piña con merengue/4 personas) </h2>
+			<h2>Recipe<br>
+  (Pineapple cake with meringue/serves 4) </h2>
 <h3>Ingredients:</h3>
         <ul class= "ingredientes">
-		  <li>150 g. de harina</li>
-		  <li>8 claras de huevo</li>
-		  <li>300 g. de azúcar</li>
-		  <li>1 lata piña en conserva </li>
-		  <li>150 g. de mantequilla derretida</li>
+		  <li>150 g. <?=lorem::get(5)?></li>
+		  <li>8 <?=lorem::get(5)?></li>
+		  <li>300 g. <?=lorem::get(5)?></li>
+		  <li>1 <?=lorem::get(5)?> </li>
+		  <li>150 g. <?=lorem::get(5)?></li>
 	</ul>
     <h3>Method	</h3>
-   <p><em>Bata 6 claras de huevo muy firmes, incorpóreles el azúcar, siempre batiendo, enseguida la harina, en forma de lluvia y la mantequilla derretida. <br>
+   <p><em><?=lorem::get(10)?><br>
    </em></p>
-       <p><em>En un molde para bizcocho enmantequillado vacíe allí la preparación y cueza a fuego fuerte por media hora. </em><em>Al día siguiente, corte el merengue en discos finos, cubra estos discos con la piña y póngalos unos sobre otros. <br>
+       <p><em><?=lorem::get(15)?> <br>
        </em><em><br>
-         Bata 2 claras de huevo a punto nieve y agregue azúcar. Luego cubra la torta y cueza a fuego suave teniendo cuidado que no se dore demasiado.</em><br>
-         <br>              
+         <?=lorem::get(15)?></em><br>
+         <br>
 <h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Conservas de piña rodajas en almíbar</p>
+			<p>Canned Sliced Pineapples</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(5)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>Lata piñas en rodajas</td>
+					<td>Sliced Pineapple can</td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><b>Peso Neto</b></td>
+					<td><b>Net weigth</b></td>
 					<td>565g</td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><b>Peso Drenado </b></td>
+					<td><b>Drained weight </b></td>
 					<td>340g</td>
 					<td>&nbsp;</td>
 				</tr>	<tr>
 					<td><b>Portion</b></td>
-					<td>110g (2 rodajas + jugo)</td>
+					<td>110g (2 slices + juice)</td>
 					<td>&nbsp;</td>
 				</tr>	<tr>
 					<td><b>Portion per serving</b></td>
-					<td>5 aprox.</td>
+					<td>5 approx.</td>
 					<td>&nbsp;</td>
 				</tr>
 			</table>
@@ -121,28 +121,28 @@ include "_/inc/datos-globales.php";
 					<td>0,0</td>
 					<td>0,0</td>
 				</tr>
-				
+
                 <tr>
 					<td>Carbohydrates Available [g]</td>
 					<td>19,1</td>
 					<td>17,4</td>
 				</tr>
                 <tr>
-					<td>Azucares totales [g]</td>
+					<td>Total sugars [g]</td>
 					<td>18,0</td>
 					<td>16,4</td>
 				</tr>
 				<tr>
-					<td>Fibra[g]</td>
+					<td>Fiber[g]</td>
 					<td>0,79</td>
 					<td>0,72</td>
 				</tr>
                 <tr>
-					<td>Sodio [mg]</td>
+					<td>Sodium [mg]</td>
 					<td>5,72</td>
 					<td>5,2</td>
 				</tr>
-				
+
 			</table>
 			<h2>Download</h2>
 			<p><a class="boton" href="#">Download Specifications</a></p>
@@ -152,13 +152,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

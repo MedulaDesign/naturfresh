@@ -2,20 +2,20 @@
 		<ul>
 			<li class="primniv"><a href="categoria.php?c=legumbres">Legume</a>
 				<ul>
-			    <li><a href="ficha.php" class="unproducto">Lentil</a></li>
-					<li><a href="ficha-legumbres-garbanzos.php" class="unproducto">Chickpea</a></li>
-					<li><a href="ficha-legumbres-poroto-tortola.php" class="unproducto">Tortola</a><a href="ficha-legumbres-poroto-tortola.php" class="unproducto"> Bean </a></li>
-					<li><a href="ficha-legumbres-poroto-blanco.php" class="unproducto">White Bean</a></li>
-					<li><a href="ficha-legumbres-poroto-negro.php" class="unproducto">Black Bean</a></li>
-					<li><a href="ficha-legumbres-poroto-hallado.php" class="unproducto">Hallado Bean</a></li>
-					<li><a href="ficha-legumbres-arvejas.php" class="unproducto">Pea</a></li>
+			    <li><a href="ficha.php" class="unproducto">Lentils</a></li>
+					<li><a href="ficha-legumbres-garbanzos.php" class="unproducto">Chickpeas</a></li>
+					<li><a href="ficha-legumbres-poroto-tortola.php" class="unproducto">Tortola Beans</a></li>
+					<li><a href="ficha-legumbres-poroto-blanco.php" class="unproducto">White Beans</a></li>
+					<li><a href="ficha-legumbres-poroto-negro.php" class="unproducto">Black Beans</a></li>
+					<li><a href="ficha-legumbres-poroto-hallado.php" class="unproducto">Hallado Beans</a></li>
+					<li><a href="ficha-legumbres-arvejas.php" class="unproducto">Peas</a></li>
 				</ul>
 			</li>
 			<li class="primniv"><a href="categoria.php?c=arroz">Rice</a>
 				<ul>
 					<li><a href="ficha-arroz-nacional-grado-1.php" class="unproducto">Rice Grade 1</a></li>
-					<li><a href="ficha-arroz-nacional-grado-1.php" class="unproducto">Rice Grade 2</a></li>
-					<li><a href="ficha-arroz-nacional-grado-1.php" class="unproducto">Rice </a><a href="ficha-arroz-importado-grado-2.php" class="unproducto">Imported Grade 2</a></li>
+					<li><a href="ficha-arroz-nacional-grado-2.php" class="unproducto">Rice Grade 2</a></li>
+					<li><a href="ficha-arroz-importado-grado-2.php" class="unproducto">Rice Imported Grade 2</a></li>
 					<li><a href="ficha-arroz-pregraneado.php" class="unproducto">Pre-Cooked Rice</a></li>
 				</ul>
 		  </li>
@@ -64,6 +64,6 @@
 			<li class="primniv"><a href="ficha-azucar.php">Sugar</a>
 			</li>
 		</ul>
-<?php 
+<?php
 //$fichas = explode(',','legumbres-garbanzos,legumbres-porotos-tortola,legumbres-porotos-blanco,legumbres-porotos-negro,legumbres-porotos-hallado,legumbres-arveja,arroz-nacional-grado-1,arroz-nacional-grado-2,arroz-importado-grado-1,arroz-importado-grado-2,arroz-pre-graneado,aceite-vegetal,aceite-100-porciento-maravilla,conservas-atun,conservas-jurel,conservas-pinas-en-rodajas,conservas-pinas-en-cubitos,conservas-palmitos,especies-oregano,especies-canela,especies-comino,especies-pimienta-negra,especies-linaza,especies-maiz-curahua-o-pop-corn,frutos-secos-pasas,frutos-secos-ciruelas,frutos-secos-nueces,frutos-secos-almendras,alimento-animal-alpiste,alimento-animal-mijo');
 ?>

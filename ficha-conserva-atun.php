@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Atún &ndash;Atún &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Tuna &ndash; Canned  &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,61 +32,70 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>ATÚN</h1>
-						<p>NaturFresh ofrece atún importado en las variedades desmenuzado y lomitos tanto en agua como en aceite. <br>
+						<h1>TUNA</h1>
+						<p><?=lorem::get(17)?><br>
 					  </div>
 				</div>
 				<div class="muestraCategoria"><img src="imgs/atun546x232.jpg" alt="Atún"></div>
 			</header>
 			<!-- h2{Descripcion:}+(figure>img[src="imgs/bolsa-lentejas_150x205.jpg"]+p.vermas{cotizar})+p.bajada{Las lentejas es una de las}+p{Éstas tienen como}+h2{Ficha}+h3{PRODUCTO}+p{Lenteja 6mm}+h3{ESPECIFICACIONES}+(p>b{Formato:}+{Contenido neto NCh 1650/1-2 Of.84})
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
-			<h2>Description
+			<h2>Description</h2>
 			<figure>
-				<img src="imgs/productos/lata-atun-150x205.jpg" alt="">
-				<figcaption>Atún</figcaption>
-				</figure></h2><figure><p class="vermas">cotizar</p>
+				<img src="imgs/productos/lata-jurel-150x205.jpg" alt="">
+				<figcaption>
+					Tuna<br>
+				</figcaption>
+			<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Dada su alta cantidad de proteínas, el atún es un alimento recomendado especialmente para el desarrollo muscular. Su alta concentración de yodo es recomendable para el metabolismo al igual que las vitaminas que benefician una dieta sana y equilibrada.<br>
+			<p class="bajada"><?=lorem::get(15)?><br>
 			</p>
-			<p> Ideal para acompañar en ensaladas y guisos.<br>
+			<p><?=lorem::get(5)?><br>
 			</p>
-			<h2>Receta <br>
-  (Atún al horno con papas chips/4 personas) </h2>
+			<h2>Recipe <br>
+  (Tuna salad/serves 4) </h2>
 <h3>Ingredients:</h3>
         <ul class= "ingredientes">
-		  <li>1 conserva de atún (desmenuzado o lomito)<br>
-		  </li>
-		  <li>2 paquetes de papas chips </li>
-		  <li>1 lata de salsa de tomates </li>
-		  <li>2 cucharadas de ketchup</li>
-		  <li>2 cucharadas de crema </li>
-		  <li>1 taza de leche </li>
-		  <li>mantequilla para untar una fuente </li>
+		  <li>1 <?=lorem::get(5)?></li>
+		  <li>2 <?=lorem::get(5)?></li>
+		  <li>1 <?=lorem::get(5)?></li>
+		  <li>2 <?=lorem::get(5)?></li>
+		  <li>2 <?=lorem::get(5)?></li>
+		  <li>1 <?=lorem::get(5)?></li>
+		  <li><?=lorem::get(5)?></li>
 	</ul>
     <h3>Method	</h3>
-   <p><em>Desmenuce el atún y extienda una capa al fondo de una fuente previamente enmantequillada o aceitada. Alterne por capas el atún con salsa de tomates mezclado, luego el ketchup y la crema.<br>
+   <p><em><?=lorem::get(15)?><br>
+     <?=lorem::get(15)?>
      <br>
-     Repita la operación hasta terminar por encima con las papas chips. Vacíe por los costados de la fuente la mitad de la leche antes de poner al horno.<br>
-     <br>
-     Antes de finalizar el gratinado añada el resto de leche si ve que la preparación está muy seca. Sirva caliente.</em><br></p><h2>Product Detail</h2>
+     <?=lorem::get(5)?></em><br></p><h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Atún</p>
+			<p>Tuna</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(5)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>&nbsp;</td>
+					<td>Tuna can</td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
+					<td><b>Net weight</b></td>
+					<td>425g</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><b>Drained weight</b></td>
+					<td>255g</td>
+					<td>&nbsp;</td>
+				</tr>
+                <tr>
 					<td><b>Portion</b></td>
+					<td>70g</td>
 					<td>&nbsp;</td>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
+				</tr> <tr>
 					<td><b>Portion per serving</b></td>
-					<td>&nbsp;</td>
+					<td>3 approx</td>
 					<td>&nbsp;</td>
 				</tr>
 			</table>
@@ -100,69 +109,69 @@ include "_/inc/datos-globales.php";
 				</tr>
 				<tr>
 					<td>Energy [Kcal.]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Protein [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>0</td>
+					<td>0</td>
 				</tr>
 				<tr>
 					<td>Total Fat [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
-					<td> Grasa Saturada[g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Saturated Fats [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 	<tr>
-					<td> Grasa Trans[g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Trans Fats [g]</td>
+					<td>0</td>
+					<td>0</td>
 				</tr>
                 <tr>
-					<td>Grasas Monoinsaturadas [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Monounsaturated Fats [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                  <tr>
-					<td>Grasas Poliinsaturadas [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Polyunsaturated Fats [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
 					<td>Colesterol [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>0</td>
+					<td>0</td>
 				</tr>
                 <tr>
 					<td>Carbohydrates Available [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>0</td>
+					<td>0</td>
 				</tr>
 				<tr>
 					<td>Sodium [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>0</td>
+					<td>0</td>
 				</tr>
                 <tr>
 					<td>Vitamina E [mg ET]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
-					<td>% Relacion DDR %</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>% DDR Relation %</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td>-</td>
 				</tr>
-				
+
 				<tr>
 					<td>Moisture [%]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 			</table>
       <h2>Download</h2>
@@ -173,13 +182,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

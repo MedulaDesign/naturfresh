@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Lentejas &ndash; Legumbres &ndash; <?php echo $nombreMarca; ?></title>
+	<title>Lentils &ndash; Legume &ndash; <?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>LENTEJAS</h1>
-						<p>NaturFresh es un gran proveedor de esta legumbre y cubre las necesidades del mercado nacional. Su presentación es en bolsa de 1kg y saco de 50 kg.<br>
+						<h1>LENTILS</h1>
+						<p>NaturFresh interdum et malesuada fames ac ante ipsum primis in faucibus. Duis pulvinar bibendum.<br>
 						</p>
 					</div>
 				</div>
@@ -43,48 +43,50 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/productos/bolsa-lentejas_150x205.jpg" alt="">
+				<img src="imgs/bag-150x205.jpg" alt="">
 				<figcaption>
-					Paquete de 1 Kg; <br>
-					Grado 2
+					Bag of 1 Kg; <br>
+					Grade 2
 				</figcaption>
-				<p class="vermas">cotizar</p>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">La lenteja cuenta con bastantes nutrientes. Su riqueza en proteínas, vitaminas, minerales y fibra son sus grandes fortalezas. Forman parte de numerosas recetas de la cocina nacional e internacional y pueden ser presentadas como plato principal o en ensaladas.<br>
+			<p class="bajada">Mauris auctor neque id nibh rutrum posuere. Vivamus blandit magna ac venenatis consectetur. Nulla vel sapien porta, consequat lectus nec, iaculis nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquet augue id sapien hendrerit aliquet. Ut scelerisque scelerisque enim, ut elementum justo egestas eu.<br>
 			</p>
-			<p>Ideal para guiso de invierno mezcladas con arroz.<br>
+			<p>Nulla vel sapien porta, consequat lectus nec, iaculis nulla.<br>
 			</p>
-			 <h2>Receta <br>
-  (Lentejas a la antigua/4 personas) </h2>
+			 <h2>Recipe<br>
+  (Lentils/serves 4) </h2>
 <h3>Ingredients:</h3>
         <ul class= "ingredientes">
-		  <li>1 taza de lentejas</li>
-		  <li>1/4 kg. de carne molida</li>
-		  <li>1 cebolla</li>
-		  <li>1/4 kg de longanizas</li>
-		  <li>1 cucharada de queso rallado</li>
-		  <li>1 pimentón rojo</li>
-		  <li>1 tomate</li>
-		  <li>1/2 cucharadita de ajo picado</li>
-		  <li>1 zanahoria</li>
-		  <li>aceite</li>
-		  <li>sal y pimienta a gusto</li>
+		  <li>1 Mauris ullamcorper ligula ut pharetra</li>
+		  <li>1/4 kg. Vivamus porttitor, augue id mattis</li>
+		  <li>1 Nullam malesuada augue et dictum.</li>
+		  <li>1/4 kg Praesent semper magna at quam.</li>
+		  <li>1 <?=lorem::get(4)?></li>
+		  <li>1 <?=lorem::get(2)?></li>
+		  <li>1 <?=lorem::get(1)?></li>
+		  <li>1/2 <?=lorem::get(5)?></li>
+		  <li>1 <?=lorem::get(2)?></li>
+		  <li><?=lorem::get(1)?></li>
+		  <li><?=lorem::get(4)?></li>
 	</ul>
-    <h3>Method	</h3>
-   <p><em>Deje remojando las lentejas la noche anterior. Al día siguiente cuézalas con agua, sal y pimienta a gusto. Aparte fría la cebolla, los ajos picados, la zanahoria en cubitos chicos, el pimentón y las papas. Condimentar.<br>
+    <h3>Method</h3>
+   <p><em>Maecenas consectetur dui ac velit varius hendrerit a ut felis. Nullam sit amet tincidunt sapien. Curabitur ut neque commodo lorem molestie dignissim. Praesent enim quam, hendrerit consectetur magna nec, aliquet auctor eros. Maecenas tempus, metus eget euismod elementum, massa dui bibendum elit, sit amet lobortis risus leo ut justo. Quisque nec lectus a augue rutrum hendrerit. Donec sagittis id enim in ullamcorper. Fusce quis ipsum iaculis, pharetra velit non, vehicula nibh. Fusce a odio nibh. Pellentesque id eleifend odio. Vivamus dictum eleifend turpis. Donec a odio est. Praesent cursus iaculis vulputate. Vivamus egestas tempor quam sit amet fermentum.<br>
    </em></p>
-       <p><em>Freír las longanizas picadas y la carne molida, agregue el tomate picado y junte con las verduras, cuidando de que éstas estén bien cocidas.
-       </em>
        <p><em>
-Cocine por unos minutos. Sirva con queso rallado esparcido encima.</em><br><h2>Product Detail</h2>
+Nulla justo elit, iaculis in molestie nec, fermentum at neque. Suspendisse potenti. Vivamus vehicula iaculis neque eu sollicitudin. Aenean mollis pretium felis, et porta dui egestas nec. Cras non mauris consequat, consectetur dui sit amet, feugiat diam. Praesent tellus nisl, dignissim accumsan leo sed, fringilla molestie leo. Praesent viverra sodales luctus.
+       </em>
+       <p>
+       <em><?=lorem::get(10)?></em><br>
+<h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Lenteja 6mm</p>
+			<p>Lentil 6mm</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b> Contenido neto NCh 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(10)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)</td>
+					<td>1Kg - 10x1 - Bags of 50 Kg. (polypropylene)</td>
 				</tr>
 				<tr>
 					<td><b>Portion</b></td>
@@ -129,7 +131,7 @@ Cocine por unos minutos. Sirva con queso rallado esparcido encima.</em><br><h2>P
 					<td>3</td>
 				</tr>
 				<tr>
-					<td>Fibra Bruta [g]</td>
+					<td>Fiber Bruta [g]</td>
 					<td>2,31</td>
 					<td>3,86</td>
 				</tr>
@@ -157,13 +159,13 @@ Cocine por unos minutos. Sirva con queso rallado esparcido encima.</em><br><h2>P
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

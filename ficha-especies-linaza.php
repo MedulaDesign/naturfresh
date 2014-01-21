@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Linaza &ndash;Linaza &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Linseed &ndash; Species &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>LINAZA</h1>
-						<p>Grano entero de semilla de linaza. NaturFresh comercializa grandes volúmenes de la semilla para satisfacer la demanda interna.<br>
+						<h1>LINSEED</h1>
+						<p><?=lorem::get(16)?><br>
 						</p>
 					</div>
 				</div>
@@ -45,45 +45,45 @@ include "_/inc/datos-globales.php";
 			<figure>
 				<img src="imgs/productos/linaza-150x205.jpg" alt="">
 				<figcaption>
-					Linaza</figcaption>
-				<p class="vermas">cotizar</p>
+					Linseed</figcaption>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">La linaza es uno de los alimentos popularizados recientemente por sus propiedades nutricionales, como  vitaminas y minerales. Es una semilla, rica en fibra, antioxidantes y la mejor fuente vegetal de Omega 3.<br>
+			<p class="bajada"><?=lorem::get(26)?><br>
 			</p>
-			<p>Recomendable en formato molida para ensaladas y otros alimentos, o disolverla en agua o jugos y tomarla en ayunas.<br>
+			<p><?=lorem::get(9)?><br>
 			</p>
-		<h2>Receta <br>
-  (Ensalada de Tomate con Linaza/4 personas) </h2>
+		<h2>Recipe <br>
+  (Tomato salad with linseed/serves 4) </h2>
 <h3>Ingredients:</h3>
         <ul class= "ingredientes">
-		  <li>500 g. de tomates frescos maduros</li>
-		  <li>1 cucharada de vinagre o jugo de limón</li>
-          <li>3 cucharadas de aceite de oliva</li>
-          <li>1 cucharada de linaza molida o en semillitas</li>
-          <li>Sal</li>
-          <li>Pimienta negra en grano</li>
-          <li>Hojas de albahaca</li>
+		  <li>500 g. <?=lorem::get(6)?></li>
+		  <li>1 <?=lorem::get(6)?></li>
+          <li>3 <?=lorem::get(6)?></li>
+          <li>1 <?=lorem::get(6)?></li>
+          <li><?=lorem::get(1)?></li>
+          <li><?=lorem::get(6)?></li>
+          <li><?=lorem::get(6)?></li>
 	</ul>
     <h3>Method	</h3>
-   <p><em>Corte los tomates en rodajas finas y aliñe con vinagre o jugo de limón, aceite, sal y pimienta negra. Pique las hojas de albahaca y reparta por la superficie. Agregue la linaza molida o en semillitas.</em><br>
+   <p><em><?=lorem::get(26)?></em><br>
    <h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Linaza</p>
+			<p>Linseed</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information: </b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information: </b> <?=lorem::get(6)?></p>
 			<table cellspacing="0">
 				<tr>
 				  <td><b>Presentation</b></td>
 				  <td>&nbsp;</td>
-				  <td>&nbsp;</td>
+				  <td>Paper bags</td>
 				</tr>
 				<tr>
-				  <td><b>Linaza entera</b></td>
+				  <td><b>Whole flaxseed</b></td>
 				  <td>50Kg.</td>
 				  <td>100 Lb. (45,36 Kg.)</td>
 				</tr>
 				<tr>
-				  <td><b>Linaza Molida </b></td>
+				  <td><b>Ground flaxseed</b></td>
 				  <td>30Kg.</td>
 				  <td>&nbsp;</td>
 				</tr>
@@ -117,27 +117,27 @@ include "_/inc/datos-globales.php";
 					<td>34,25</td>
 				</tr>
                 <tr>
-					<td>Azucares Totales[g]</td>
+					<td>Total sugars[g]</td>
 					<td>&nbsp;</td>
 					<td>1,05</td>
 				</tr>
                  <tr>
-					<td>Fibra [g]</td>
+					<td>Fiber [g]</td>
 					<td>&nbsp;</td>
 					<td>27,9</td>
 				</tr>
                 <tr>
-					<td>Calcio [g]</td>
+					<td>Calcium [g]</td>
 					<td>&nbsp;</td>
 					<td>198</td>
 				</tr>
 				<tr>
-					<td>Hierro [g]</td>
+					<td>Iron [g]</td>
 					<td>&nbsp;</td>
 					<td>8</td>
 				</tr>
                 <tr>
-					<td>Magnesio[g]</td>
+					<td>Magnesium[g]</td>
 					<td>&nbsp;</td>
 					<td>362</td>
 				</tr>
@@ -146,38 +146,38 @@ include "_/inc/datos-globales.php";
 					<td>&nbsp;</td>
 					<td>4,17</td>
 				</tr>
-				
+
 				<tr>
 					<td>Potasio [mg]</td>
 					<td>&nbsp;</td>
 					<td>725</td>
 				</tr><tr>
-					<td>Fósforo [mg]</td>
+					<td>Phosphorus [mg]</td>
 					<td>&nbsp;</td>
 					<td>662</td>
 				</tr><tr>
-					<td>Sodio [mg]</td>
+					<td>Sodium [mg]</td>
 					<td>&nbsp;</td>
 					<td>34</td>
 				</tr><tr>
-					<td>Cobre [mg]</td>
+					<td>Copper [mg]</td>
 					<td>&nbsp;</td>
 					<td>1,04</td>
 				</tr><tr>
-					<td>Vitamina C [mg]</td>
+					<td>Vitamin C [mg]</td>
 					<td>&nbsp;</td>
 					<td>1,3</td>
 				</tr><tr>
-					<td>Riboflavina [mg]</td>
+					<td>Riboflavin [mg]</td>
 					<td>&nbsp;</td>
 					<td>0,16</td>
 				</tr><tr>
-					<td>Tiamina [mg]</td>
+					<td>Thiamine [mg]</td>
 					<td>&nbsp;</td>
 					<td>0,17</td>
 				</tr>
 		<tr>
-					<td>Niacina [mg]</td>
+					<td>Niacin [mg]</td>
 					<td>&nbsp;</td>
 					<td>1,4</td>
 			  </tr>
@@ -190,13 +190,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 	  </nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

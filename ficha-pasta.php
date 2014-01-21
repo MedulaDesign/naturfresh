@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Pasta &ndash;Pasta &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Pasta &ndash; Pasta &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -33,7 +33,7 @@ include "_/inc/datos-globales.php";
 				<div class="caluga verde">
 					<div class="tipoA">
 						<h1>PASTA</h1>
-						<p>NaturFresh dispone para el mercado cinco variedades de pastas fabricadas con harina de trigo seleccionada y fortificada con vitaminas y minerales.<br>
+						<p><?=lorem::get(16)?><br>
 						  <br>
 					  </p>
 					</div>
@@ -44,52 +44,41 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/productos/sinfotos-150x205.jpg" alt="">
+				<img src="imgs/pasta-150x205.jpg" alt="">
 				<figcaption>
 					Pasta</figcaption>
-				<p class="vermas">cotizar</p>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Las pastas de NaturFresh son importadas para abastecer los requerimientos del mercado interno y bajos los exigentes estándares de calidad en sabor. Aportan carbohidratos, fierro y vitaminas. Sus cinco variedades se pueden combinar con múltiples ingredientes, salsas, carnes, pescados y mariscos<br>
+			<p class="bajada"><?=lorem::get(36)?><br>
 			</p>
-			<p>Las pastas son una gran fuente energía por lo que son altamente recomendadas para su consumo antes de grandes exigencias físicas.<br>
+			<p><?=lorem::get(16)?><br>
 			</p>
 			<h2>Receta <br>
-  (Tallarines al Pesto/4 personas) </h2>
+  (Pasta with pesto/serves 4) </h2>
 <h3>Ingredients:</h3>
         <ul class= "ingredientes">
-		  <li>1 paquete de tallarines</li>
-		  <li>125 g. de queso fresco		    </li>
-		  <li>125 g. de queso rallado		    </li>
-		  <li>3 dientes de ajo		    </li>
-		  <li>Aceite de oliva		    </li>
-		  <li>Albahaca fresca</li>
-		  <li> Sal y pimienta a gusto</li>
+		  <li>1 <?=lorem::get(6)?></li>
+		  <li>125 g. <?=lorem::get(6)?></li>
+		  <li>125 g. <?=lorem::get(6)?></li>
+		  <li>3 <?=lorem::get(6)?></li>
+		  <li><?=lorem::get(6)?></li>
+		  <li><?=lorem::get(6)?></li>
+		  <li><?=lorem::get(6)?></li>
 	    </ul>
     <h3>Method	</h3>
-   <p><em>Moler finamente los dientes de ajo, la albahaca y los quesos. Añadir gota a
-gota el aceite de oliva hasta formar una mayonesa espesa; aliñe con sal y
-pimienta a gusto.<br>
+   <p><em><?=lorem::get(26)?><br>
    </em></p>
        <p><em>
-Paralelamente cocine los tallarines al dente y una vez listos agregue sobre
-ellos la salsa pesto.
+<?=lorem::get(16)?>
 </em><br>  <h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>&nbsp;</p>
+			<p>Pasta</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(6)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td><b>Portion</b></td>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td><b>Portion per serving</b></td>
-					<td>&nbsp;</td>
+					<td>Bags of 20 Kg.</td>
 				</tr>
 			</table>
 			<h3>NUTRICIONAL INFORMATION:</h3>
@@ -102,63 +91,63 @@ ellos la salsa pesto.
 				</tr>
 				<tr>
 					<td>Energy [Kcal.]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Protein [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Total Fat [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
-					<td> Ácidos Grasos Saturados[g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Saturated Fatty Acids[g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
-					<td>Ácidos Grasos Monoinsaturados [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Monounsaturated Fatty Acids [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                  <tr>
-					<td>Ácidos Grasos Poliinsaturados [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td>Polyunsaturated Fatty Acids [g]</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
 					<td>Carbohydrates Available [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Sodium [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
                 <tr>
 					<td>Dietary Fiber [g]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Calcium [mg]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Iron [mg]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 				<tr>
 					<td>Moisture [%]</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
+					<td><?=round(mt_rand()/mt_rand(), 2)?></td>
 				</tr>
 			</table>
 <h2>Download</h2>
@@ -169,13 +158,13 @@ ellos la salsa pesto.
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

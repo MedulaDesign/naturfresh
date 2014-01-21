@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Piñas Cubitos &ndash;Piñas Cubitos  &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Diced Pineapples &ndash; Canned &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>PIÑA CUBITOS</h1>
-						<p>Trocitos de piñas en almíbar comercializadas por NaturFresh en conservas selladas bajo estrictos controles de calidad.<br>
+						<h1>DICED PINEAPPLES</h1>
+						<p><?=lorem::get(15)?><br>
 						</div>
 				</div>
 				<div class="muestraCategoria"><img src="imgs/pinacubos546x232.jpg" alt="Piñas Cubitos"></div>
@@ -44,40 +44,40 @@ include "_/inc/datos-globales.php";
 			<figure>
 				<img src="imgs/productos/lata-pina-cubitos-150x205.jpg" alt="">
 				<figcaption>
-					Piñas en trocitos</figcaption>
-			<p class="vermas">cotizar</p>
+					Diced Pineapples</figcaption>
+			<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Es una de las frutas tropicales más consumida. Aporta nutrientes, vitaminas y fibras beneficiosas para la salud. <br>
+			<p class="bajada"><?=lorem::get(15)?><br>
 			</p>
-			<p>La presentación en conserva es ideal para la elaboración de jugos, postres, tortas y pasteles.<br>
+			<p><?=lorem::get(15)?><br>
 			</p>
 			<h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Conservas de Conservas de piña trocitos en almíbar.</p>
+			<p>Canned Diced Pineapples</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(5)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>Lata piñas en rodajas</td>
+					<td>Diced Pineapples can</td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><b>Peso Neto</b></td>
+					<td><b>Net weigth</b></td>
 					<td>565g</td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><b>Peso Drenado </b></td>
+					<td><b>Drained weight </b></td>
 					<td>340g</td>
 					<td>&nbsp;</td>
 				</tr>	<tr>
 					<td><b>Portion</b></td>
-					<td>110g (2 rodajas + jugo)</td>
+					<td>110g</td>
 					<td>&nbsp;</td>
 				</tr>	<tr>
 					<td><b>Portion per serving</b></td>
-					<td>5 aprox.</td>
+					<td>5 approx.</td>
 					<td>&nbsp;</td>
 				</tr>
 			</table>
@@ -104,28 +104,28 @@ include "_/inc/datos-globales.php";
 					<td>0,0</td>
 					<td>0,0</td>
 				</tr>
-				
+
                 <tr>
 					<td>Carbohydrates Available [g]</td>
 					<td>19,1</td>
 					<td>17,4</td>
 				</tr>
                 <tr>
-					<td>Azucares totales [g]</td>
+					<td>Total sugars [g]</td>
 					<td>18,0</td>
 					<td>16,4</td>
 				</tr>
 				<tr>
-					<td>Fibra[g]</td>
+					<td>Fiber[g]</td>
 					<td>0,79</td>
 					<td>0,72</td>
 				</tr>
                 <tr>
-					<td>Sodio [mg]</td>
+					<td>Sodium [mg]</td>
 					<td>5,72</td>
 					<td>5,2</td>
 				</tr>
-				
+
 			</table>
 			<h2>Download</h2>
 			<p><a class="boton" href="#">Download Specifications</a></p>
@@ -135,13 +135,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

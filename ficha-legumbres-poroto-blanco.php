@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Porotos Blanco &ndash; Porotos Blanco &ndash;<?php echo $nombreMarca; ?></title>
+	<title>White Beans &ndash; Legume &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -42,7 +42,7 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/productos/bolsa-lentejas_150x205.jpg" alt="">
+				<img src="imgs/bag-150x205.jpg" alt="">
 				<figcaption>
 					 1 Kg Package <br>
 				</figcaption>
@@ -63,7 +63,7 @@ include "_/inc/datos-globales.php";
 		  <li>2 Et populo iriure vix		    </li>
 		  <li>1/4 Usu ludus affert voluptaria ei</li>
 		  <li>1 Movet fastidii signiferumque in qui</li>
-		 
+
 	</ul>
     <h3>Method:</h3>
    <p><em>Lus id vidit volumus mandamus, vide veritus democritum te nec, ei eos debet libris consulatu. No mei ferri graeco dicunt, ad cum veri accommodare. Sed at malis omnesque delicata, usu et iusto zzril meliore NaturFresh.</em><br>
@@ -71,7 +71,7 @@ include "_/inc/datos-globales.php";
 			<h3>PRODUCT</h3>
 			<p>White Bean</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information: </b>Contenido neto NCh 1650/1-2 Of.84</p>
+			<p><b>Information: </b><?=lorem::get(10)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
@@ -153,13 +153,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 		</nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>

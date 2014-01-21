@@ -8,7 +8,7 @@ include "_/inc/datos-globales.php";
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
 
 <head>
-	<title>Aceite Maravilla Maíz  &ndash;Aceite Maravilla Maíz  &ndash;<?php echo $nombreMarca; ?></title>
+	<title>Sunflower Oil &ndash; Oil  &ndash;<?php echo $nombreMarca; ?></title>
 	<!--<meta name="description" content="Uno de los principales ">
 	 Google will often use this as its description of your page/site. Make it good or delete it. -->
 	<meta name="author" content="<?php echo $nombreMarca.' '.$webDelAutor; ?>">
@@ -22,7 +22,7 @@ include "_/inc/datos-globales.php";
 <div class="amictus pagina-ficha">
 	<div class="wrapper">
 
-	<header>	
+	<header>
 		<?php
 		$activo='productos';
 		include "views/header.php"; ?>
@@ -32,8 +32,8 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-						<h1>ACEITE MARAVILLA MAIZ </h1>
-						<p>Aceite comestible, mezcla vegetal, 90% girasol  y 10% de maíz.  <br>
+						<h1>SUNFLOWER OIL</h1>
+						<p><?=lorem::get(15)?><br>
 						</div>
 				</div>
 				<div class="muestraCategoria"><img src="imgs/aceite2-546x232.jpg" alt="Aceite Maravilla Maiz"></div>
@@ -42,28 +42,28 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/productos/aceite-soja-maravilla-botella-150x205.jpg" alt="">
+				<img src="imgs/oil-150x205.jpg" alt="">
 				<figcaption>
-					Aceite  Maravilla Maíz<br>
-					1 Litro
+					Sunflower Oil<br>
+					1 Liter
 				</figcaption>
-				<p class="vermas">cotizar</p>
+				<p class="vermas">quote</p>
 			</figure>
-			<p class="bajada">Por su bajo contenido de grasas es un buen aliado para disminuir el colesterol, además contiene un importante porcentaje de vitamina E saludables para el organismo.<br>
+			<p class="bajada"><?=lorem::get(15)?><br>
 			</p>
-			<p>La mejor manera de consumirlo es crudo como aliño de ensalada.
+			<p><?=lorem::get(5)?>
 			  <br>
 			</p>
 			<h2>Product Detail</h2>
 			<h3>PRODUCT</h3>
-			<p>Aceite Maravilla Maíz</p>
+			<p>Sunflower Oil</p>
 			<h3>SPECIFICATIONS</h3>
-			<p><b>Information:</b>Contenido neto NCh. 1650/1-2 Of.84</p>
+			<p><b>Information:</b> <?=lorem::get(5)?></p>
 			<table cellspacing="0">
 				<tr>
 					<td><b>Presentation</b></td>
-					<td>Botellas PET 12 x 1000cc</td>
-					<td>Botellas PET 12 x 900cc </td>
+					<td>Bottles PET 12 x 1000cc</td>
+					<td>Bottles PET 12 x 900cc </td>
 				</tr>
 				<tr>
 					<td><b>Portion</b></td>
@@ -86,7 +86,7 @@ include "_/inc/datos-globales.php";
 				</tr>
 				<tr>
 					<td>Energy [Kcal.]</td>
-					<td>44</td>
+					<td>41,4</td>
 					<td>828</td>
 				</tr>
 				<tr>
@@ -96,28 +96,28 @@ include "_/inc/datos-globales.php";
 				</tr>
 				<tr>
 					<td>Total Fat [g]</td>
-					<td>4,9</td>
-					<td>98</td>
+					<td>4,6</td>
+					<td>92</td>
 				</tr>
 				<tr>
-					<td> Grasa Saturada[g]</td>
-					<td>0,5</td>
-					<td>10</td>
+					<td>Saturated Fats [g]</td>
+					<td>0,8</td>
+					<td>15</td>
 				</tr>
                 	<tr>
-					<td> Grasa Trans[g]</td>
+					<td>Trans Fats [g]</td>
 					<td>0</td>
 					<td>0</td>
 				</tr>
                 <tr>
-					<td>Grasas Monoinsaturadas [g]</td>
-					<td>1,4</td>
-					<td>28</td>
+					<td>Monounsaturated Fats [g]</td>
+					<td>1,1</td>
+					<td>21</td>
 				</tr>
                  <tr>
-					<td>Grasas Poliinsaturadas [g]</td>
-					<td>3</td>
-					<td>60</td>
+					<td>Polyunsaturated Fats [g]</td>
+					<td>2,8</td>
+					<td>56</td>
 				</tr>
                 <tr>
 					<td>Colesterol [g]</td>
@@ -140,11 +140,11 @@ include "_/inc/datos-globales.php";
 					<td>49</td>
 				</tr>
 				<tr>
-					<td>% Relacion DDR %</td>
+					<td>% DDR Relation %</td>
 					<td>12</td>
 					<td>-</td>
 				</tr>
-				
+
 				<tr>
 					<td>Moisture [%]</td>
 					<td>0,05</td>
@@ -159,13 +159,13 @@ include "_/inc/datos-globales.php";
 			<?php include "views/productos-lista.php"; ?>
 	  </nav>
 	</div>
-	
+
 </div>
 
 </div>
-<footer>	  
+<footer>
 	<?php include "views/footer.php"; ?>
 </footer>
-<?php require("views/javascript-al-pie.php"); ?>  
+<?php require("views/javascript-al-pie.php"); ?>
 </body>
 </html>
