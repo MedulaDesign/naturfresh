@@ -38,7 +38,7 @@ include "_/inc/datos-globales.php";
 				</div>
 				<div class="muestraCategoria"><img src="imgs/porotoros546x232.jpg" alt="Poroto Blanco"></div>
 			</header>
-			<!-- h2{Descripcion:}+(figure>img[src="imgs/bolsa-lentejas_150x205.jpg"]+p.vermas{cotizar})+p.bajada{Las lentejas es una de las}+p{Éstas tienen como}+h2{Ficha}+h3{PRODUCTO}+p{Lenteja 6mm}+h3{ESPECIFICACIONES}+(p>b{Formato:}+{Contenido neto NCh 1650/1-2 Of.84})
+			<!-- h2{Descripcion:}+(figure>img[src="imgs/bolsa-lentejas_150x205.jpg"]+p.vermas{quote})+p.bajada{Las lentejas es una de las}+p{Éstas tienen como}+h2{Ficha}+h3{PRODUCTO}+p{Lenteja 6mm}+h3{ESPECIFICACIONES}+(p>b{Formato:}+{Contenido neto NCh 1650/1-2 Of.84})
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
@@ -46,7 +46,7 @@ include "_/inc/datos-globales.php";
 				<figcaption>
 					 1 Kg Package <br>
 				</figcaption>
-				<p class="vermas">cotizar</p>
+				<p class="vermas">quote</p>
 			</figure>
 			<p class="bajada">lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. <br>
 			</p>
