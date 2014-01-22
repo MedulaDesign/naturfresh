@@ -5,9 +5,9 @@ $webDelAutor = 'http://medula.cl/';
 $nombreMarca = 'NaturFresh';
 $sloganMarca = 'We produce healthy food for your family';
 $codigoPostal = '1235887';
-$direccionFisica = '<span class="street-address">Guerneville 2569</span><br>
-<span class="postal-code" title="Código postal.">'.$codigoPostal.'</span> <span class="region">Renca</span> <br>
-<span class="locality">Santiago</span>, <span class="country-name">Chile</span>';
+$direccionFisica = '<span class="street-address">2569 Farm Road</span><br>
+<span class="postal-code" title="ZIP Code">'.$codigoPostal.'</span> <span class="region">Tucson</span> <br>
+<span class="locality">AZ</span>, <span class="country-name">United State</span>';
 $telefono = '<a href="tel:+53228362820" class="tel">(53-2)26525890</a>';// '+53(2)26525890';
 $dominioSitio = 'g.m0.cl'; //'medula.cl';
 $home = 'http://'.$dominioSitio.'/';

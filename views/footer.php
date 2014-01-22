@@ -12,7 +12,7 @@
 			<hr>
 			<p class="adr"><?php echo $direccionFisica; ?></p>
 			<hr>
-			<p class="verEnMaps"><a href="http://goo.gl/maps/SOcyr" title="ver ubicación en Google maps" target="_blank">View in Google maps</a></p>
+			<p class="verEnMaps"><a href="http://goo.gl/maps/qFxxm" title="ver ubicación en Google maps" target="_blank">View in Google maps</a></p>
 		</div>
 		<div class="grupo telefonos">
 			<p class="telefono">
