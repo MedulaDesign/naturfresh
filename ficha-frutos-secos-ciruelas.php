@@ -43,7 +43,7 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/Plums-150x205.jpg" alt="">
+				<img src="imgs/prunes-150x205.jpg" alt="">
 				<figcaption>
 					Plums</figcaption>
 				<p class="vermas">quote</p>
