@@ -32,7 +32,7 @@ include "_/inc/datos-globales.php";
 			<header>
 				<div class="caluga verde">
 					<div class="tipoA">
-					  <h1>PRUNES</h1>
+					  <h1>Plums</h1>
 						<p><?=lorem::get(16)?><br>
 					  </p>
 					</div>
@@ -43,9 +43,9 @@ include "_/inc/datos-globales.php";
 			table[cellspacing="0"](>tr(>td(>b>{formatos})+td{1Kg - 10x1 - Sacos de 50 Kg.(Polipropileno)})+tr(>td(>b{Porción})+td{60g})+tr(>td(>b{Porciones por envase})+td{17})) -->
 			<h2>Description</h2>
 			<figure>
-				<img src="imgs/prunes-150x205.jpg" alt="">
+				<img src="imgs/Plums-150x205.jpg" alt="">
 				<figcaption>
-					Prunes</figcaption>
+					Plums</figcaption>
 				<p class="vermas">quote</p>
 			</figure>
 			<p class="bajada"> <?=lorem::get(26)?><br>
@@ -53,7 +53,7 @@ include "_/inc/datos-globales.php";
 			<p><?=lorem::get(6)?><br>
 			</p>
 <h2>Recipe <br>
-  (Chicken with prunes /serves 4) </h2>
+  (Chicken with Plums /serves 4) </h2>
 <h3>Ingredients:</h3>
         <ul class= "ingredientes">
 		  <li>4 <?=lorem::get(6)?></li>
@@ -69,7 +69,7 @@ include "_/inc/datos-globales.php";
        <p><em><?=lorem::get(26)?></em></p>
 <h2>Product Detail Producto</h2>
 			<h3>PRODUCT</h3>
-			<p>Prunes</p>
+			<p>Plums</p>
 			<h3>SPECIFICATIONS</h3>
 			<p><b>Information:</b></p>
 			<table cellspacing="0">

@@ -69,9 +69,9 @@
 						<p class="vermas">more info</p>
 					</a></li>
 				<li><a href="ficha-frutos-secos-ciruelas.php">
-						<h3>PRUNES</h3>
+						<h3>Plums</h3>
 						<p>&nbsp;</p>
-						<img src="imgs/prunes-94x128.jpg" alt="">
+						<img src="imgs/Plums-94x128.jpg" alt="">
 						<p class="vermas">more info</p>
 					</a></li>
 			</ul>
