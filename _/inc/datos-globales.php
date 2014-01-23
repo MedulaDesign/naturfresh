@@ -8,7 +8,7 @@ $codigoPostal = '1235887';
 $direccionFisica = '<span class="street-address">2569 Farm Road</span><br>
 <span class="postal-code" title="ZIP Code">'.$codigoPostal.'</span> <span class="region">Tucson</span> <br>
 <span class="locality">AZ</span>, <span class="country-name">United State</span>';
-$telefono = '<a href="tel:+53228362820" class="tel">(53-2)26525890</a>';// '+53(2)26525890';
+$telefono = '<a href="tel:+12025550133" class="tel">(1) 202-555-0133</a>';// '+53(2)26525890';
 $dominioSitio = 'g.m0.cl'; //'medula.cl';
 $home = 'http://'.$dominioSitio.'/';
 $mailAministrador = 'agustin@fliin.com';
